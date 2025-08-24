@@ -1,0 +1,57 @@
+section {
+    padding-inline: 64px;
+    padding-bottom: 80px;
+}
+
+.row {
+    row-gap: 24px
+}
+
+.card-body {
+    padding-inline: 20px;
+    display: grid;
+    gap: 12px !important;
+}
+
+.card-fotter {
+    padding-inline: 20px !important;
+    padding-top: 20px;
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+    gap: 10px;
+}
+
+h4 {
+    /* font-family: Manrope; */
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+}
+
+p {
+    /* font-family: Inter; */
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -2%;
+}
+
+#ACard {
+    background-color: var(--main-blue);
+}
+
+#ACard .card-body,
+#ACard .card-fotter {
+    background-color: var(--main-blue);
+    color: white;
+}
+
+#BCard p {
+    color: var(--dark-blue);
+}

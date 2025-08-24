@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding-block: 16px;
+    padding-inline: 64px;
+}
+
+nav li a {
+    /* font-family: Inter; */
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+
+li.active a {
+    color: var(--main-blue);
+}
+
+li a {
+    color: black;
+}
+
+ul {
+    gap: 10px;
+}
+
+li img {
+    margin-left: 10px;
+}
+
+nav button {
+    background-color: var(--main-blue);
+    /* font-family: Inter; */
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -2%;
+    color: white;
+    padding-block: 14px;
+    padding-inline: 32px;
+    margin-left: 20px;
+}

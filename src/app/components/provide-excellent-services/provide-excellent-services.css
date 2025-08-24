@@ -1,0 +1,53 @@
+section {
+    background-color: var(--main-bg);
+    padding-block: 60px;
+    padding-inline: 32px;
+}
+
+.title {
+    /* font-family: Manrope; */
+    color: var(--main-blue);
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: -0.2px;
+    text-align: center;
+}
+
+.provider {
+    display: flex;
+    gap: 40px;
+
+}
+
+.providing {
+    gap: 4px;
+}
+
+.icon {
+    color: var(--main-blue);
+}
+
+.hprovider {
+    /* font-family: Manrope; */
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+    color: var(--dark-blue)
+}
+
+span {
+    color: var(--main-blue);
+}
+
+p {
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.2px;
+    color: var(--dark-blue);
+}

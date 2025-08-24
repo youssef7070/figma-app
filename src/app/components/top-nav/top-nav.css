@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-nav {
+    background-color: var(--mian-black);
+    padding-block: 8px;
+    padding-inline: 64px;
+}
+
+.center {
+    gap: 36px;
+}
+
+.center img {
+    padding-right: 7px;
+}
+
+p,
+span {
+    /* font-family: Inter; */
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -2%;
+
+}
+
+ul {
+    gap: 10px
+}
+
+li a {
+    color: var(--mian-black);
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+    font-size: 10px;
+
+}

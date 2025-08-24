@@ -1,0 +1,25 @@
+section {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+h5 {
+    /* font-family: Manrope; */
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -2%;
+    color: var(--main-blue);
+}
+
+h1 {
+    /* font-family: Manrope; */
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: var(--dark-blue);
+}

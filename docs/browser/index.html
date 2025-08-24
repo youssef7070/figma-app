@@ -1,4 +1,7 @@
-<!DOCTYPE html><html lang="en" data-beasties-container><head>
+<!DOCTYPE html>
+<html lang="en" data-beasties-container>
+
+<head>
   <meta charset="utf-8">
   <title>FigmaApp</title>
   <base href="/figma-app/">
@@ -6,14 +9,2786 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <style>@font-face{font-family:'Inter';font-style:italic;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/inter/v19/UcCm3FwrK3iLTcvnUwkT9nA2.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Inter';font-style:italic;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/inter/v19/UcCm3FwrK3iLTcvnUwAT9nA2.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Inter';font-style:italic;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/inter/v19/UcCm3FwrK3iLTcvnUwgT9nA2.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Inter';font-style:italic;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/inter/v19/UcCm3FwrK3iLTcvnUwcT9nA2.woff2) format('woff2');unicode-range:U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;}@font-face{font-family:'Inter';font-style:italic;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/inter/v19/UcCm3FwrK3iLTcvnUwsT9nA2.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Inter';font-style:italic;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/inter/v19/UcCm3FwrK3iLTcvnUwoT9nA2.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Inter';font-style:italic;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/inter/v19/UcCm3FwrK3iLTcvnUwQT9g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Inter';font-style:normal;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/inter/v19/UcCo3FwrK3iLTcvvYwYL8g.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Inter';font-style:normal;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/inter/v19/UcCo3FwrK3iLTcvmYwYL8g.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Inter';font-style:normal;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/inter/v19/UcCo3FwrK3iLTcvuYwYL8g.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Inter';font-style:normal;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/inter/v19/UcCo3FwrK3iLTcvhYwYL8g.woff2) format('woff2');unicode-range:U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;}@font-face{font-family:'Inter';font-style:normal;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/inter/v19/UcCo3FwrK3iLTcvtYwYL8g.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Inter';font-style:normal;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/inter/v19/UcCo3FwrK3iLTcvsYwYL8g.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Inter';font-style:normal;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/inter/v19/UcCo3FwrK3iLTcviYwY.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Manrope';font-style:normal;font-weight:200 800;font-display:swap;src:url(https://fonts.gstatic.com/s/manrope/v19/xn7gYHE41ni1AdIRggqxSuXd.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Manrope';font-style:normal;font-weight:200 800;font-display:swap;src:url(https://fonts.gstatic.com/s/manrope/v19/xn7gYHE41ni1AdIRggOxSuXd.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Manrope';font-style:normal;font-weight:200 800;font-display:swap;src:url(https://fonts.gstatic.com/s/manrope/v19/xn7gYHE41ni1AdIRggSxSuXd.woff2) format('woff2');unicode-range:U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;}@font-face{font-family:'Manrope';font-style:normal;font-weight:200 800;font-display:swap;src:url(https://fonts.gstatic.com/s/manrope/v19/xn7gYHE41ni1AdIRggixSuXd.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Manrope';font-style:normal;font-weight:200 800;font-display:swap;src:url(https://fonts.gstatic.com/s/manrope/v19/xn7gYHE41ni1AdIRggmxSuXd.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Manrope';font-style:normal;font-weight:200 800;font-display:swap;src:url(https://fonts.gstatic.com/s/manrope/v19/xn7gYHE41ni1AdIRggexSg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
-<style>:root{--bs-blue:#0d6efd;--bs-indigo:#6610f2;--bs-purple:#6f42c1;--bs-pink:#d63384;--bs-red:#dc3545;--bs-orange:#fd7e14;--bs-yellow:#ffc107;--bs-green:#198754;--bs-teal:#20c997;--bs-cyan:#0dcaf0;--bs-black:#000;--bs-white:#fff;--bs-gray:#6c757d;--bs-gray-dark:#343a40;--bs-gray-100:#f8f9fa;--bs-gray-200:#e9ecef;--bs-gray-300:#dee2e6;--bs-gray-400:#ced4da;--bs-gray-500:#adb5bd;--bs-gray-600:#6c757d;--bs-gray-700:#495057;--bs-gray-800:#343a40;--bs-gray-900:#212529;--bs-primary:#0d6efd;--bs-secondary:#6c757d;--bs-success:#198754;--bs-info:#0dcaf0;--bs-warning:#ffc107;--bs-danger:#dc3545;--bs-light:#f8f9fa;--bs-dark:#212529;--bs-primary-rgb:13,110,253;--bs-secondary-rgb:108,117,125;--bs-success-rgb:25,135,84;--bs-info-rgb:13,202,240;--bs-warning-rgb:255,193,7;--bs-danger-rgb:220,53,69;--bs-light-rgb:248,249,250;--bs-dark-rgb:33,37,41;--bs-primary-text-emphasis:#052c65;--bs-secondary-text-emphasis:#2b2f32;--bs-success-text-emphasis:#0a3622;--bs-info-text-emphasis:#055160;--bs-warning-text-emphasis:#664d03;--bs-danger-text-emphasis:#58151c;--bs-light-text-emphasis:#495057;--bs-dark-text-emphasis:#495057;--bs-primary-bg-subtle:#cfe2ff;--bs-secondary-bg-subtle:#e2e3e5;--bs-success-bg-subtle:#d1e7dd;--bs-info-bg-subtle:#cff4fc;--bs-warning-bg-subtle:#fff3cd;--bs-danger-bg-subtle:#f8d7da;--bs-light-bg-subtle:#fcfcfd;--bs-dark-bg-subtle:#ced4da;--bs-primary-border-subtle:#9ec5fe;--bs-secondary-border-subtle:#c4c8cb;--bs-success-border-subtle:#a3cfbb;--bs-info-border-subtle:#9eeaf9;--bs-warning-border-subtle:#ffe69c;--bs-danger-border-subtle:#f1aeb5;--bs-light-border-subtle:#e9ecef;--bs-dark-border-subtle:#adb5bd;--bs-white-rgb:255,255,255;--bs-black-rgb:0,0,0;--bs-font-sans-serif:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;--bs-gradient:linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));--bs-body-font-family:var(--bs-font-sans-serif);--bs-body-font-size:1rem;--bs-body-font-weight:400;--bs-body-line-height:1.5;--bs-body-color:#212529;--bs-body-color-rgb:33,37,41;--bs-body-bg:#fff;--bs-body-bg-rgb:255,255,255;--bs-emphasis-color:#000;--bs-emphasis-color-rgb:0,0,0;--bs-secondary-color:rgba(33, 37, 41, .75);--bs-secondary-color-rgb:33,37,41;--bs-secondary-bg:#e9ecef;--bs-secondary-bg-rgb:233,236,239;--bs-tertiary-color:rgba(33, 37, 41, .5);--bs-tertiary-color-rgb:33,37,41;--bs-tertiary-bg:#f8f9fa;--bs-tertiary-bg-rgb:248,249,250;--bs-heading-color:inherit;--bs-link-color:#0d6efd;--bs-link-color-rgb:13,110,253;--bs-link-decoration:underline;--bs-link-hover-color:#0a58ca;--bs-link-hover-color-rgb:10,88,202;--bs-code-color:#d63384;--bs-highlight-color:#212529;--bs-highlight-bg:#fff3cd;--bs-border-width:1px;--bs-border-style:solid;--bs-border-color:#dee2e6;--bs-border-color-translucent:rgba(0, 0, 0, .175);--bs-border-radius:.375rem;--bs-border-radius-sm:.25rem;--bs-border-radius-lg:.5rem;--bs-border-radius-xl:1rem;--bs-border-radius-xxl:2rem;--bs-border-radius-2xl:var(--bs-border-radius-xxl);--bs-border-radius-pill:50rem;--bs-box-shadow:0 .5rem 1rem rgba(0, 0, 0, .15);--bs-box-shadow-sm:0 .125rem .25rem rgba(0, 0, 0, .075);--bs-box-shadow-lg:0 1rem 3rem rgba(0, 0, 0, .175);--bs-box-shadow-inset:inset 0 1px 2px rgba(0, 0, 0, .075);--bs-focus-ring-width:.25rem;--bs-focus-ring-opacity:.25;--bs-focus-ring-color:rgba(13, 110, 253, .25);--bs-form-valid-color:#198754;--bs-form-valid-border-color:#198754;--bs-form-invalid-color:#dc3545;--bs-form-invalid-border-color:#dc3545}*,:after,:before{box-sizing:border-box}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}body{margin:0;font-family:var(--bs-body-font-family);font-size:var(--bs-body-font-size);font-weight:var(--bs-body-font-weight);line-height:var(--bs-body-line-height);color:var(--bs-body-color);text-align:var(--bs-body-text-align);background-color:var(--bs-body-bg);-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}hr{margin:1rem 0;color:inherit;border:0;border-top:var(--bs-border-width) solid;opacity:.25}h1,h2,h4,h5{margin-top:0;margin-bottom:.5rem;font-weight:500;line-height:1.2;color:var(--bs-heading-color)}h1{font-size:calc(1.375rem + 1.5vw)}@media (min-width:1200px){h1{font-size:2.5rem}}h2{font-size:calc(1.325rem + .9vw)}@media (min-width:1200px){h2{font-size:2rem}}h4{font-size:calc(1.275rem + .3vw)}@media (min-width:1200px){h4{font-size:1.5rem}}h5{font-size:1.25rem}p{margin-top:0;margin-bottom:1rem}ul{padding-left:2rem}ul{margin-top:0;margin-bottom:1rem}ul ul{margin-bottom:0}a{color:rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));text-decoration:underline}a:hover{--bs-link-color-rgb:var(--bs-link-hover-color-rgb)}a:not([href]):not([class]),a:not([href]):not([class]):hover{color:inherit;text-decoration:none}img{vertical-align:middle}button{border-radius:0}button:focus:not(:focus-visible){outline:0}button,input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button{text-transform:none}[role=button]{cursor:pointer}[type=button],button{-webkit-appearance:button}[type=button]:not(:disabled),button:not(:disabled){cursor:pointer}.list-unstyled{padding-left:0;list-style:none}.container,.container-fluid{--bs-gutter-x:1.5rem;--bs-gutter-y:0;width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}@media (min-width:1400px){.container{max-width:1320px}}:root{--bs-breakpoint-xs:0;--bs-breakpoint-sm:576px;--bs-breakpoint-md:768px;--bs-breakpoint-lg:992px;--bs-breakpoint-xl:1200px;--bs-breakpoint-xxl:1400px}.row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x))}.row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y)}.col{flex:1 0 0}.row-cols-1>*{flex:0 0 auto;width:100%}.col-4{flex:0 0 auto;width:33.33333333%}.col-8{flex:0 0 auto;width:66.66666667%}.g-1{--bs-gutter-x:.25rem}.g-1{--bs-gutter-y:.25rem}.g-2{--bs-gutter-x:.5rem}.g-2{--bs-gutter-y:.5rem}.g-3{--bs-gutter-x:1rem}.g-3{--bs-gutter-y:1rem}.g-5{--bs-gutter-x:3rem}.g-5{--bs-gutter-y:3rem}@media (min-width:768px){.row-cols-md-2>*{flex:0 0 auto;width:50%}.row-cols-md-3>*{flex:0 0 auto;width:33.33333333%}.row-cols-md-4>*{flex:0 0 auto;width:25%}.col-md-2{flex:0 0 auto;width:16.66666667%}.col-md-3{flex:0 0 auto;width:25%}.col-md-5{flex:0 0 auto;width:41.66666667%}}.form-control{display:block;width:100%;padding:.375rem .75rem;font-size:1rem;font-weight:400;line-height:1.5;color:var(--bs-body-color);-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:var(--bs-body-bg);background-clip:padding-box;border:var(--bs-border-width) solid var(--bs-border-color);border-radius:var(--bs-border-radius);transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out}@media (prefers-reduced-motion:reduce){.form-control{transition:none}}.form-control:focus{color:var(--bs-body-color);background-color:var(--bs-body-bg);border-color:#86b7fe;outline:0;box-shadow:0 0 0 .25rem #0d6efd40}.form-control::-webkit-date-and-time-value{min-width:85px;height:1.5em;margin:0}.form-control::-webkit-datetime-edit{display:block;padding:0}.form-control::placeholder{color:var(--bs-secondary-color);opacity:1}.form-control:disabled{background-color:var(--bs-secondary-bg);opacity:1}.form-control::-webkit-file-upload-button{padding:.375rem .75rem;margin:-.375rem -.75rem;-webkit-margin-end:.75rem;margin-inline-end:.75rem;color:var(--bs-body-color);background-color:var(--bs-tertiary-bg);pointer-events:none;border-color:inherit;border-style:solid;border-width:0;border-inline-end-width:var(--bs-border-width);border-radius:0;-webkit-transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}.form-control::file-selector-button{padding:.375rem .75rem;margin:-.375rem -.75rem;-webkit-margin-end:.75rem;margin-inline-end:.75rem;color:var(--bs-body-color);background-color:var(--bs-tertiary-bg);pointer-events:none;border-color:inherit;border-style:solid;border-width:0;border-inline-end-width:var(--bs-border-width);border-radius:0;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}@media (prefers-reduced-motion:reduce){.form-control::-webkit-file-upload-button{-webkit-transition:none;transition:none}.form-control::file-selector-button{transition:none}}.form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button{background-color:var(--bs-secondary-bg)}.form-control:hover:not(:disabled):not([readonly])::file-selector-button{background-color:var(--bs-secondary-bg)}.btn{--bs-btn-padding-x:.75rem;--bs-btn-padding-y:.375rem;--bs-btn-font-family: ;--bs-btn-font-size:1rem;--bs-btn-font-weight:400;--bs-btn-line-height:1.5;--bs-btn-color:var(--bs-body-color);--bs-btn-bg:transparent;--bs-btn-border-width:var(--bs-border-width);--bs-btn-border-color:transparent;--bs-btn-border-radius:var(--bs-border-radius);--bs-btn-hover-border-color:transparent;--bs-btn-box-shadow:inset 0 1px 0 rgba(255, 255, 255, .15),0 1px 1px rgba(0, 0, 0, .075);--bs-btn-disabled-opacity:.65;--bs-btn-focus-box-shadow:0 0 0 .25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);display:inline-block;padding:var(--bs-btn-padding-y) var(--bs-btn-padding-x);font-family:var(--bs-btn-font-family);font-size:var(--bs-btn-font-size);font-weight:var(--bs-btn-font-weight);line-height:var(--bs-btn-line-height);color:var(--bs-btn-color);text-align:center;text-decoration:none;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;user-select:none;border:var(--bs-btn-border-width) solid var(--bs-btn-border-color);border-radius:var(--bs-btn-border-radius);background-color:var(--bs-btn-bg);transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}@media (prefers-reduced-motion:reduce){.btn{transition:none}}.btn:hover{color:var(--bs-btn-hover-color);background-color:var(--bs-btn-hover-bg);border-color:var(--bs-btn-hover-border-color)}.btn:focus-visible{color:var(--bs-btn-hover-color);background-color:var(--bs-btn-hover-bg);border-color:var(--bs-btn-hover-border-color);outline:0;box-shadow:var(--bs-btn-focus-box-shadow)}.btn:first-child:active{color:var(--bs-btn-active-color);background-color:var(--bs-btn-active-bg);border-color:var(--bs-btn-active-border-color)}.btn:first-child:active:focus-visible{box-shadow:var(--bs-btn-focus-box-shadow)}.btn:disabled{color:var(--bs-btn-disabled-color);pointer-events:none;background-color:var(--bs-btn-disabled-bg);border-color:var(--bs-btn-disabled-border-color);opacity:var(--bs-btn-disabled-opacity)}.btn-primary{--bs-btn-color:#fff;--bs-btn-bg:#0d6efd;--bs-btn-border-color:#0d6efd;--bs-btn-hover-color:#fff;--bs-btn-hover-bg:#0b5ed7;--bs-btn-hover-border-color:#0a58ca;--bs-btn-focus-shadow-rgb:49,132,253;--bs-btn-active-color:#fff;--bs-btn-active-bg:#0a58ca;--bs-btn-active-border-color:#0a53be;--bs-btn-active-shadow:inset 0 3px 5px rgba(0, 0, 0, .125);--bs-btn-disabled-color:#fff;--bs-btn-disabled-bg:#0d6efd;--bs-btn-disabled-border-color:#0d6efd}.btn-danger{--bs-btn-color:#fff;--bs-btn-bg:#dc3545;--bs-btn-border-color:#dc3545;--bs-btn-hover-color:#fff;--bs-btn-hover-bg:#bb2d3b;--bs-btn-hover-border-color:#b02a37;--bs-btn-focus-shadow-rgb:225,83,97;--bs-btn-active-color:#fff;--bs-btn-active-bg:#b02a37;--bs-btn-active-border-color:#a52834;--bs-btn-active-shadow:inset 0 3px 5px rgba(0, 0, 0, .125);--bs-btn-disabled-color:#fff;--bs-btn-disabled-bg:#dc3545;--bs-btn-disabled-border-color:#dc3545}.btn-outline-info{--bs-btn-color:#0dcaf0;--bs-btn-border-color:#0dcaf0;--bs-btn-hover-color:#000;--bs-btn-hover-bg:#0dcaf0;--bs-btn-hover-border-color:#0dcaf0;--bs-btn-focus-shadow-rgb:13,202,240;--bs-btn-active-color:#000;--bs-btn-active-bg:#0dcaf0;--bs-btn-active-border-color:#0dcaf0;--bs-btn-active-shadow:inset 0 3px 5px rgba(0, 0, 0, .125);--bs-btn-disabled-color:#0dcaf0;--bs-btn-disabled-bg:transparent;--bs-btn-disabled-border-color:#0dcaf0;--bs-gradient:none}.collapse:not(.show){display:none}.dropdown{position:relative}.dropdown-menu{--bs-dropdown-zindex:1000;--bs-dropdown-min-width:10rem;--bs-dropdown-padding-x:0;--bs-dropdown-padding-y:.5rem;--bs-dropdown-spacer:.125rem;--bs-dropdown-font-size:1rem;--bs-dropdown-color:var(--bs-body-color);--bs-dropdown-bg:var(--bs-body-bg);--bs-dropdown-border-color:var(--bs-border-color-translucent);--bs-dropdown-border-radius:var(--bs-border-radius);--bs-dropdown-border-width:var(--bs-border-width);--bs-dropdown-inner-border-radius:calc(var(--bs-border-radius) - var(--bs-border-width));--bs-dropdown-divider-bg:var(--bs-border-color-translucent);--bs-dropdown-divider-margin-y:.5rem;--bs-dropdown-box-shadow:var(--bs-box-shadow);--bs-dropdown-link-color:var(--bs-body-color);--bs-dropdown-link-hover-color:var(--bs-body-color);--bs-dropdown-link-hover-bg:var(--bs-tertiary-bg);--bs-dropdown-link-active-color:#fff;--bs-dropdown-link-active-bg:#0d6efd;--bs-dropdown-link-disabled-color:var(--bs-tertiary-color);--bs-dropdown-item-padding-x:1rem;--bs-dropdown-item-padding-y:.25rem;--bs-dropdown-header-color:#6c757d;--bs-dropdown-header-padding-x:1rem;--bs-dropdown-header-padding-y:.5rem;position:absolute;z-index:var(--bs-dropdown-zindex);display:none;min-width:var(--bs-dropdown-min-width);padding:var(--bs-dropdown-padding-y) var(--bs-dropdown-padding-x);margin:0;font-size:var(--bs-dropdown-font-size);color:var(--bs-dropdown-color);text-align:left;list-style:none;background-color:var(--bs-dropdown-bg);background-clip:padding-box;border:var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);border-radius:var(--bs-dropdown-border-radius)}.dropdown-divider{height:0;margin:var(--bs-dropdown-divider-margin-y) 0;overflow:hidden;border-top:1px solid var(--bs-dropdown-divider-bg);opacity:1}.dropdown-item{display:block;width:100%;padding:var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);clear:both;font-weight:400;color:var(--bs-dropdown-link-color);text-align:inherit;text-decoration:none;white-space:nowrap;background-color:transparent;border:0;border-radius:var(--bs-dropdown-item-border-radius,0)}.dropdown-item:focus,.dropdown-item:hover{color:var(--bs-dropdown-link-hover-color);background-color:var(--bs-dropdown-link-hover-bg)}.dropdown-item:active{color:var(--bs-dropdown-link-active-color);text-decoration:none;background-color:var(--bs-dropdown-link-active-bg)}.dropdown-item:disabled{color:var(--bs-dropdown-link-disabled-color);pointer-events:none;background-color:transparent}.nav-link{display:block;padding:var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);font-size:var(--bs-nav-link-font-size);font-weight:var(--bs-nav-link-font-weight);color:var(--bs-nav-link-color);text-decoration:none;background:0 0;border:0;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out}@media (prefers-reduced-motion:reduce){.nav-link{transition:none}}.nav-link:focus,.nav-link:hover{color:var(--bs-nav-link-hover-color)}.nav-link:focus-visible{outline:0;box-shadow:0 0 0 .25rem #0d6efd40}.nav-link:disabled{color:var(--bs-nav-link-disabled-color);pointer-events:none;cursor:default}.navbar{--bs-navbar-padding-x:0;--bs-navbar-padding-y:.5rem;--bs-navbar-color:rgba(var(--bs-emphasis-color-rgb), .65);--bs-navbar-hover-color:rgba(var(--bs-emphasis-color-rgb), .8);--bs-navbar-disabled-color:rgba(var(--bs-emphasis-color-rgb), .3);--bs-navbar-active-color:rgba(var(--bs-emphasis-color-rgb), 1);--bs-navbar-brand-padding-y:.3125rem;--bs-navbar-brand-margin-end:1rem;--bs-navbar-brand-font-size:1.25rem;--bs-navbar-brand-color:rgba(var(--bs-emphasis-color-rgb), 1);--bs-navbar-brand-hover-color:rgba(var(--bs-emphasis-color-rgb), 1);--bs-navbar-nav-link-padding-x:.5rem;--bs-navbar-toggler-padding-y:.25rem;--bs-navbar-toggler-padding-x:.75rem;--bs-navbar-toggler-font-size:1.25rem;--bs-navbar-toggler-icon-bg:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");--bs-navbar-toggler-border-color:rgba(var(--bs-emphasis-color-rgb), .15);--bs-navbar-toggler-border-radius:var(--bs-border-radius);--bs-navbar-toggler-focus-width:.25rem;--bs-navbar-toggler-transition:box-shadow .15s ease-in-out;position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding:var(--bs-navbar-padding-y) var(--bs-navbar-padding-x)}.navbar>.container-fluid{display:flex;flex-wrap:inherit;align-items:center;justify-content:space-between}.navbar-nav{--bs-nav-link-padding-x:0;--bs-nav-link-padding-y:.5rem;--bs-nav-link-font-weight: ;--bs-nav-link-color:var(--bs-navbar-color);--bs-nav-link-hover-color:var(--bs-navbar-hover-color);--bs-nav-link-disabled-color:var(--bs-navbar-disabled-color);display:flex;flex-direction:column;padding-left:0;margin-bottom:0;list-style:none}.navbar-nav .dropdown-menu{position:static}.navbar-collapse{flex-grow:1;flex-basis:100%;align-items:center}.navbar-toggler{padding:var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);font-size:var(--bs-navbar-toggler-font-size);line-height:1;color:var(--bs-navbar-color);background-color:transparent;border:var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);border-radius:var(--bs-navbar-toggler-border-radius);transition:var(--bs-navbar-toggler-transition)}@media (prefers-reduced-motion:reduce){.navbar-toggler{transition:none}}.navbar-toggler:hover{text-decoration:none}.navbar-toggler:focus{text-decoration:none;outline:0;box-shadow:0 0 0 var(--bs-navbar-toggler-focus-width)}.navbar-toggler-icon{display:inline-block;width:1.5em;height:1.5em;vertical-align:middle;background-image:var(--bs-navbar-toggler-icon-bg);background-repeat:no-repeat;background-position:center;background-size:100%}@media (min-width:768px){.navbar-expand-md{flex-wrap:nowrap;justify-content:flex-start}.navbar-expand-md .navbar-nav{flex-direction:row}.navbar-expand-md .navbar-nav .dropdown-menu{position:absolute}.navbar-expand-md .navbar-nav .nav-link{padding-right:var(--bs-navbar-nav-link-padding-x);padding-left:var(--bs-navbar-nav-link-padding-x)}.navbar-expand-md .navbar-collapse{display:flex!important;flex-basis:auto}.navbar-expand-md .navbar-toggler{display:none}}.card{--bs-card-spacer-y:1rem;--bs-card-spacer-x:1rem;--bs-card-title-spacer-y:.5rem;--bs-card-title-color: ;--bs-card-subtitle-color: ;--bs-card-border-width:var(--bs-border-width);--bs-card-border-color:var(--bs-border-color-translucent);--bs-card-border-radius:var(--bs-border-radius);--bs-card-box-shadow: ;--bs-card-inner-border-radius:calc(var(--bs-border-radius) - (var(--bs-border-width)));--bs-card-cap-padding-y:.5rem;--bs-card-cap-padding-x:1rem;--bs-card-cap-bg:rgba(var(--bs-body-color-rgb), .03);--bs-card-cap-color: ;--bs-card-height: ;--bs-card-color: ;--bs-card-bg:var(--bs-body-bg);--bs-card-img-overlay-padding:1rem;--bs-card-group-margin:.75rem;position:relative;display:flex;flex-direction:column;min-width:0;height:var(--bs-card-height);color:var(--bs-body-color);word-wrap:break-word;background-color:var(--bs-card-bg);background-clip:border-box;border:var(--bs-card-border-width) solid var(--bs-card-border-color);border-radius:var(--bs-card-border-radius)}.card-body{flex:1 1 auto;padding:var(--bs-card-spacer-y) var(--bs-card-spacer-x);color:var(--bs-card-color)}.card-title{margin-bottom:var(--bs-card-title-spacer-y);color:var(--bs-card-title-color)}.card-text:last-child{margin-bottom:0}.card-img-top{width:100%}.card-img-top{border-top-left-radius:var(--bs-card-inner-border-radius);border-top-right-radius:var(--bs-card-inner-border-radius)}:root{--bs-btn-close-filter: }:root{--bs-carousel-indicator-active-bg:#fff;--bs-carousel-caption-color:#fff;--bs-carousel-control-icon-filter: }.d-flex{display:flex!important}.position-relative{position:relative!important}.border-secondary{--bs-border-opacity:1;border-color:rgba(var(--bs-secondary-rgb),var(--bs-border-opacity))!important}.w-100{width:100%!important}.h-100{height:100%!important}.flex-column{flex-direction:column!important}.flex-wrap{flex-wrap:wrap!important}.justify-content-end{justify-content:flex-end!important}.justify-content-center{justify-content:center!important}.justify-content-between{justify-content:space-between!important}.justify-content-evenly{justify-content:space-evenly!important}.align-items-center{align-items:center!important}.align-content-center{align-content:center!important}.m-auto{margin:auto!important}.mt-4{margin-top:1.5rem!important}.me-2{margin-right:.5rem!important}.mb-4{margin-bottom:1.5rem!important}.ms-auto{margin-left:auto!important}.px-5{padding-right:3rem!important;padding-left:3rem!important}.gap-0{gap:0!important}.gap-2{gap:.5rem!important}.fw-bold{font-weight:700!important}.text-center{text-align:center!important}.text-danger{--bs-text-opacity:1;color:rgba(var(--bs-danger-rgb),var(--bs-text-opacity))!important}.text-light{--bs-text-opacity:1;color:rgba(var(--bs-light-rgb),var(--bs-text-opacity))!important}.text-white{--bs-text-opacity:1;color:rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important}.bg-danger{--bs-bg-opacity:1;background-color:rgba(var(--bs-danger-rgb),var(--bs-bg-opacity))!important}.bg-body-tertiary{--bs-bg-opacity:1;background-color:rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important}.rounded-2{border-radius:var(--bs-border-radius)!important}.fa-brands,.fa-solid,.fab{--_fa-family:var(--fa-family,var(--fa-style-family,"Font Awesome 7 Free"));-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;display:var(--fa-display,inline-block);font-family:var(--_fa-family);font-feature-settings:normal;font-style:normal;font-synthesis:none;font-variant:normal;font-weight:var(--fa-style,900);line-height:1;text-align:center;text-rendering:auto;width:var(--fa-width,1.25em)}.fa-phone{--fa:"\f095"}.fa-envelope{--fa:"\f0e0"}.fa-phone-volume{--fa:"\f2a0"}.fa-location-dot{--fa:"\f3c5"}:root{--fa-family-brands:"Font Awesome 7 Brands";--fa-font-brands:normal 400 1em/1 var(--fa-family-brands)}.fa-brands,.fab{--fa-family:var(--fa-family-brands);--fa-style:400}.fa-twitter{--fa:"\f099"}.fa-instagram{--fa:"\f16d"}.fa-whatsapp{--fa:"\f232"}.fa-facebook-f{--fa:"\f39e"}:root{--fa-font-regular:normal 400 1em/1 var(--fa-family-classic)}:root{--fa-family-classic:"Font Awesome 7 Free";--fa-font-solid:normal 900 1em/1 var(--fa-family-classic);--fa-style-family-classic:var(--fa-family-classic)}.fa-solid{--fa-style:900}body{font-family:Inter,sans-serif}h1,h2,h4,h5{font-family:Manrope,sans-serif}:root{--mian-black: #000E24;--main-blue: #2196F3;--dark-blue: #00296C;--main-bg: #F4F8FF}
-</style><link rel="stylesheet" href="styles-GMYQX2Z5.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-GMYQX2Z5.css"></noscript><style ng-app-id="ng">*[_ngcontent-ng-c3886827313]{padding:0;margin:0;box-sizing:border-box}.top-nav[_ngcontent-ng-c3886827313]{background-color:var(--mian-black);padding-block:8px;padding-inline:64px}.center[_ngcontent-ng-c3886827313]{gap:36px}.center[_ngcontent-ng-c3886827313]   img[_ngcontent-ng-c3886827313]{padding-right:7px}p[_ngcontent-ng-c3886827313], span[_ngcontent-ng-c3886827313]{font-weight:600;font-style:Semi Bold;font-size:12px;line-height:15px;letter-spacing:-2%}ul[_ngcontent-ng-c3886827313]{gap:10px}li[_ngcontent-ng-c3886827313]   a[_ngcontent-ng-c3886827313]{color:var(--mian-black);border-radius:50%;background-color:#fff;padding:5px;font-size:10px}</style><style ng-app-id="ng">*[_ngcontent-ng-c2498913595]{padding:0;margin:0;box-sizing:border-box}nav[_ngcontent-ng-c2498913595]{padding-block:16px;padding-inline:64px}nav[_ngcontent-ng-c2498913595]   li[_ngcontent-ng-c2498913595]   a[_ngcontent-ng-c2498913595]{font-weight:600;font-style:Semi Bold;font-size:14px;line-height:18px;letter-spacing:0%}li.active[_ngcontent-ng-c2498913595]   a[_ngcontent-ng-c2498913595]{color:var(--main-blue)}li[_ngcontent-ng-c2498913595]   a[_ngcontent-ng-c2498913595]{color:#000}ul[_ngcontent-ng-c2498913595]{gap:10px}li[_ngcontent-ng-c2498913595]   img[_ngcontent-ng-c2498913595]{margin-left:10px}nav[_ngcontent-ng-c2498913595]   button[_ngcontent-ng-c2498913595]{background-color:var(--main-blue);font-weight:700;font-style:Bold;font-size:16px;line-height:20px;letter-spacing:-2%;color:#fff;padding-block:14px;padding-inline:32px;margin-left:20px}</style><style ng-app-id="ng">section[_ngcontent-ng-c3057586004]{background-image:url(/images-header/background.jpg);background-size:cover;background-position:center center;background-repeat:no-repeat!important;padding-inline:64px!important;gap:48px}h1[_ngcontent-ng-c3057586004]{font-weight:800;font-size:48px;line-height:58px;letter-spacing:-2px}p[_ngcontent-ng-c3057586004]{font-weight:400;font-style:normal;font-size:16px;line-height:23px;letter-spacing:-2%}.buttons[_ngcontent-ng-c3057586004]   [_ngcontent-ng-c3057586004]:nth-of-type(1){margin-right:20px}button[_ngcontent-ng-c3057586004]{border-radius:4px;padding-block:20px;padding-inline:40px;font-family:Inter;font-weight:700;font-style:Bold;font-size:18px;line-height:23px;letter-spacing:-2%}.img-man[_ngcontent-ng-c3057586004]{width:398px;height:530.5px;opacity:1}</style><style ng-app-id="ng">section[_ngcontent-ng-c1016580246]{padding-top:80px;padding-bottom:40px}h5[_ngcontent-ng-c1016580246]{font-weight:600;font-style:SemiBold;font-size:18px;line-height:23px;letter-spacing:-2%;color:var(--main-blue)}h1[_ngcontent-ng-c1016580246]{font-weight:700;font-style:Bold;font-size:40px;line-height:48px;letter-spacing:-2%;text-align:center;color:var(--dark-blue)}</style><style ng-app-id="ng">section[_ngcontent-ng-c2942923105]{padding-inline:64px;padding-bottom:80px}.row[_ngcontent-ng-c2942923105]{row-gap:24px}.card-body[_ngcontent-ng-c2942923105]{padding-inline:20px;display:grid;gap:12px!important}.card-fotter[_ngcontent-ng-c2942923105]{padding-inline:20px!important;padding-top:20px}.icon[_ngcontent-ng-c2942923105]{width:36px;height:36px;gap:10px}h4[_ngcontent-ng-c2942923105]{font-weight:700;font-style:Bold;font-size:16px;line-height:24px;letter-spacing:-.2px}p[_ngcontent-ng-c2942923105]{font-weight:400;font-style:normal;font-size:14px;line-height:18px;letter-spacing:-2%}#ACard[_ngcontent-ng-c2942923105]{background-color:var(--main-blue)}#ACard[_ngcontent-ng-c2942923105]   .card-body[_ngcontent-ng-c2942923105], #ACard[_ngcontent-ng-c2942923105]   .card-fotter[_ngcontent-ng-c2942923105]{background-color:var(--main-blue);color:#fff}#BCard[_ngcontent-ng-c2942923105]   p[_ngcontent-ng-c2942923105]{color:var(--dark-blue)}</style><style ng-app-id="ng">section[_ngcontent-ng-c2418115144]{color:var(--dark-blue);padding-inline:32px;padding-top:100px;padding-bottom:50px;gap:20px}.image-container[_ngcontent-ng-c2418115144]{position:relative}.image-container[_ngcontent-ng-c2418115144]:after{content:"";position:absolute;bottom:0;right:0;width:75%;height:95%;background-color:#2196f3;z-index:-1}.image-container[_ngcontent-ng-c2418115144]   img[_ngcontent-ng-c2418115144]{position:relative;width:232px;height:246px;top:-15px;right:-25px;gap:10px;opacity:1;padding:10px}h1[_ngcontent-ng-c2418115144]{font-weight:700;font-style:Bold;font-size:40px;line-height:48px;letter-spacing:-2px}p[_ngcontent-ng-c2418115144]{padding-top:20px;font-weight:400;font-style:normal;font-size:18px;line-height:23px;letter-spacing:-1px}ul[_ngcontent-ng-c2418115144]{padding-top:10px;padding-left:0}li[_ngcontent-ng-c2418115144]   img[_ngcontent-ng-c2418115144]{padding-right:12px}a[_ngcontent-ng-c2418115144]{text-decoration:none;color:var(--dark-blue)}button[_ngcontent-ng-c2418115144]{margin-top:20px;background-color:var(--main-blue);color:#fff;border:none;outline:none;border-radius:4px;padding-block:10px;padding-inline:14px;font-weight:700;font-style:Bold;font-size:16px;line-height:20px;letter-spacing:-.2}button[_ngcontent-ng-c2418115144]   img[_ngcontent-ng-c2418115144]{padding-left:10px}</style><style ng-app-id="ng">section[_ngcontent-ng-c3277765958]{padding-top:80px;padding-bottom:40px;background-color:var(--main-bg)}h5[_ngcontent-ng-c3277765958]{font-weight:600;font-style:SemiBold;font-size:18px;line-height:23px;letter-spacing:-2%;color:var(--main-blue)}h1[_ngcontent-ng-c3277765958]{font-weight:700;font-style:Bold;font-size:40px;line-height:48px;letter-spacing:-2%;text-align:center;color:var(--dark-blue)}</style><style ng-app-id="ng">section[_ngcontent-ng-c1727487178]{background-color:var(--main-bg);padding-inline:64px;padding-bottom:100px}h4[_ngcontent-ng-c1727487178]{font-weight:700;font-style:Bold;font-size:20px;line-height:30px;letter-spacing:-.2px;color:var(--dark-blue)}h1[_ngcontent-ng-c1727487178]{font-weight:700;font-style:Bold;font-size:48px;line-height:58px;letter-spacing:-2%;color:var(--main-blue)}span[_ngcontent-ng-c1727487178]{font-weight:700;font-style:Bold;font-size:18px;line-height:23px;letter-spacing:-2%;color:var(--dark-blue)}ul[_ngcontent-ng-c1727487178]{list-style:none;padding-left:0;display:grid;gap:20px;padding-block:20px}li[_ngcontent-ng-c1727487178]   img[_ngcontent-ng-c1727487178]{padding-right:10px}a[_ngcontent-ng-c1727487178]{text-decoration:none;color:var(--dark-blue);font-weight:400;font-style:normal;font-size:14px;line-height:18px;letter-spacing:-.2px}#b13[_ngcontent-ng-c1727487178]{background-color:#fff;border:2px solid var(--main-blue);color:var(--dark-blue);outline:none;padding-block:16px;padding-inline:12px;margin-top:10px;font-weight:700;font-style:Bold;font-size:16px;line-height:20px;letter-spacing:-2%;text-align:center;margin-bottom:20px}#b2[_ngcontent-ng-c1727487178]{background-color:var(--main-blue);color:#fff!important;outline:var(--main-blue);padding-block:16px;padding-inline:12px;margin-top:10px;font-weight:700;font-style:Bold;font-size:16px;line-height:20px;letter-spacing:-2%;text-align:center;color:var(--dark-blue);margin-bottom:20px}.img-footer[_ngcontent-ng-c1727487178]{position:absolute;bottom:0;left:0;width:100%}</style><style ng-app-id="ng">section[_ngcontent-ng-c2041863817]{padding-inline:64px;padding-bottom:100px}.cards[_ngcontent-ng-c2041863817]   img[_ngcontent-ng-c2041863817]{height:306px}ul[_ngcontent-ng-c2041863817]{list-style:none;display:flex;gap:20px;justify-content:center}a[_ngcontent-ng-c2041863817]{text-decoration:none;color:var(--dark-blue)}h4[_ngcontent-ng-c2041863817]{font-style:normal;font-weight:600;font-size:15px;line-height:24px;letter-spacing:-2%}</style><style ng-app-id="ng">section[_ngcontent-ng-c3822401197]{background-color:var(--main-bg);padding-block:60px;padding-inline:32px}.title[_ngcontent-ng-c3822401197]{color:var(--main-blue);font-weight:700;font-style:Bold;font-size:30px;line-height:44px;letter-spacing:-.2px;text-align:center}.provider[_ngcontent-ng-c3822401197]{display:flex;gap:40px}.providing[_ngcontent-ng-c3822401197]{gap:4px}.icon[_ngcontent-ng-c3822401197]{color:var(--main-blue)}.hprovider[_ngcontent-ng-c3822401197]{font-weight:700;font-style:Bold;font-size:32px;line-height:40px;letter-spacing:-.2px;color:var(--dark-blue)}span[_ngcontent-ng-c3822401197]{color:var(--main-blue)}p[_ngcontent-ng-c3822401197]{font-weight:600;font-style:Semi Bold;font-size:14px;line-height:20px;letter-spacing:-.2px;color:var(--dark-blue)}</style><style ng-app-id="ng">section[_ngcontent-ng-c2978113021]{color:var(--dark-blue);margin-bottom:100px}.review[_ngcontent-ng-c2978113021]{background-color:var(--main-bg)}.boody[_ngcontent-ng-c2978113021]{padding-inline:24px;padding-block:40px}.pbody[_ngcontent-ng-c2978113021]{font-weight:400;font-style:normal;font-size:16px;line-height:20px;letter-spacing:-.2px;padding-block:20px}.right[_ngcontent-ng-c2978113021]{padding-left:10px}.right[_ngcontent-ng-c2978113021]   h4[_ngcontent-ng-c2978113021]{font-weight:700;font-style:Bold;font-size:20px;line-height:30px;letter-spacing:-2%}.right[_ngcontent-ng-c2978113021]   p[_ngcontent-ng-c2978113021]{font-weight:400;font-style:normal;font-size:16px;line-height:20px;letter-spacing:-.2px}</style><style ng-app-id="ng">section[_ngcontent-ng-c1149769737]{padding-inline:64px;padding-block:60px}h5[_ngcontent-ng-c1149769737]{font-weight:600;font-style:SemiBold;font-size:18px;line-height:23px;letter-spacing:-2%;color:var(--main-blue)}h1[_ngcontent-ng-c1149769737]{font-weight:700;font-style:Bold;font-size:40px;line-height:48px;letter-spacing:-2%;color:var(--dark-blue)}</style><style ng-app-id="ng">section[_ngcontent-ng-c1812511714]{padding-inline:64px;padding-bottom:60px}img[_ngcontent-ng-c1812511714]{width:150px;height:150px}</style><style ng-app-id="ng">section[_ngcontent-ng-c1362999061]{background-color:var(--main-bg);padding-inline:64px}.blog[_ngcontent-ng-c1362999061]{background-color:#fff}.title[_ngcontent-ng-c1362999061]{font-weight:400;font-style:normal;font-size:17px;line-height:23px;letter-spacing:-.2px;color:var(--dark-blue);padding-bottom:40px}h4[_ngcontent-ng-c1362999061]{color:var(--dark-blue);font-weight:700;font-style:Bold;font-size:20px;line-height:24px;letter-spacing:-.2px}.calender-p[_ngcontent-ng-c1362999061]{font-weight:600;font-style:Semi Bold;font-size:14px;line-height:18px;color:var(--main-blue)}.decription[_ngcontent-ng-c1362999061]{font-weight:400;font-style:normal;font-size:14px;line-height:18px;letter-spacing:-2%;color:var(--dark-blue) !}.fotter-p[_ngcontent-ng-c1362999061]{font-weight:700;font-style:Bold;font-size:14px;line-height:18px;letter-spacing:-2%;color:var(--main-blue)}.left[_ngcontent-ng-c1362999061]   img[_ngcontent-ng-c1362999061]{width:160%;height:180px;padding-right:80px}span[_ngcontent-ng-c1362999061]{padding-left:10px}button[_ngcontent-ng-c1362999061]{font-weight:700;font-style:Bold;font-size:18px;line-height:23px;letter-spacing:-.2px;padding-block:20px;padding-inline:40px;border-radius:4px;margin-top:40px;background-color:var(--main-blue);color:#fff;outline:none;border:none;position:relative;left:50%;transform:translate(-50%);margin-bottom:100px}</style><style ng-app-id="ng">body[_ngcontent-ng-c2425689991]{background-color:#111827;color:#fff}section[_ngcontent-ng-c2425689991]{padding-inline:64px!important;padding-block:60px!important}.footer[_ngcontent-ng-c2425689991]{background-color:#111827;padding:60px 0 20px}.footer[_ngcontent-ng-c2425689991]   h5[_ngcontent-ng-c2425689991]{font-weight:600;margin-bottom:20px}.footer[_ngcontent-ng-c2425689991]   p[_ngcontent-ng-c2425689991], .footer[_ngcontent-ng-c2425689991]   a[_ngcontent-ng-c2425689991]{color:#cbd5e1;font-size:14px;text-decoration:none}.footer[_ngcontent-ng-c2425689991]   a[_ngcontent-ng-c2425689991]:hover{color:#fff}.footer[_ngcontent-ng-c2425689991]   .social-icons[_ngcontent-ng-c2425689991]   a[_ngcontent-ng-c2425689991]{width:40px;height:40px;line-height:40px;display:inline-block;text-align:center;border-radius:50%;background:#1f2937;margin-right:10px;color:#fff}.footer[_ngcontent-ng-c2425689991]   .social-icons[_ngcontent-ng-c2425689991]   a[_ngcontent-ng-c2425689991]:hover{background:#2563eb}.footer-bottom[_ngcontent-ng-c2425689991]{border-top:1px solid #374151;margin-top:40px;padding-top:15px;font-size:13px;color:#9ca3af}.btn-danger[_ngcontent-ng-c2425689991]{background-color:#ef4444;border:none;padding:10px 25px;font-weight:600}.btn-primary[_ngcontent-ng-c2425689991]{background-color:#2563eb;border:none;font-weight:600}.newsletter[_ngcontent-ng-c2425689991]   input[_ngcontent-ng-c2425689991]{border-radius:6px}</style></head>
+  <style>
+    @font-face {
+      font-family: 'Inter';
+      font-style: italic;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/inter/v19/UcCm3FwrK3iLTcvnUwkT9nA2.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: italic;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/inter/v19/UcCm3FwrK3iLTcvnUwAT9nA2.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: italic;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/inter/v19/UcCm3FwrK3iLTcvnUwgT9nA2.woff2) format('woff2');
+      unicode-range: U+1F00-1FFF;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: italic;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/inter/v19/UcCm3FwrK3iLTcvnUwcT9nA2.woff2) format('woff2');
+      unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: italic;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/inter/v19/UcCm3FwrK3iLTcvnUwsT9nA2.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: italic;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/inter/v19/UcCm3FwrK3iLTcvnUwoT9nA2.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: italic;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/inter/v19/UcCm3FwrK3iLTcvnUwQT9g.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/inter/v19/UcCo3FwrK3iLTcvvYwYL8g.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/inter/v19/UcCo3FwrK3iLTcvmYwYL8g.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/inter/v19/UcCo3FwrK3iLTcvuYwYL8g.woff2) format('woff2');
+      unicode-range: U+1F00-1FFF;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/inter/v19/UcCo3FwrK3iLTcvhYwYL8g.woff2) format('woff2');
+      unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/inter/v19/UcCo3FwrK3iLTcvtYwYL8g.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/inter/v19/UcCo3FwrK3iLTcvsYwYL8g.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/inter/v19/UcCo3FwrK3iLTcviYwY.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 200 800;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/manrope/v19/xn7gYHE41ni1AdIRggqxSuXd.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+
+    @font-face {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 200 800;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/manrope/v19/xn7gYHE41ni1AdIRggOxSuXd.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    @font-face {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 200 800;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/manrope/v19/xn7gYHE41ni1AdIRggSxSuXd.woff2) format('woff2');
+      unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+    }
+
+    @font-face {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 200 800;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/manrope/v19/xn7gYHE41ni1AdIRggixSuXd.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+    }
+
+    @font-face {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 200 800;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/manrope/v19/xn7gYHE41ni1AdIRggmxSuXd.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 200 800;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/manrope/v19/xn7gYHE41ni1AdIRggexSg.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  </style>
+  <style>
+    :root {
+      --bs-blue: #0d6efd;
+      --bs-indigo: #6610f2;
+      --bs-purple: #6f42c1;
+      --bs-pink: #d63384;
+      --bs-red: #dc3545;
+      --bs-orange: #fd7e14;
+      --bs-yellow: #ffc107;
+      --bs-green: #198754;
+      --bs-teal: #20c997;
+      --bs-cyan: #0dcaf0;
+      --bs-black: #000;
+      --bs-white: #fff;
+      --bs-gray: #6c757d;
+      --bs-gray-dark: #343a40;
+      --bs-gray-100: #f8f9fa;
+      --bs-gray-200: #e9ecef;
+      --bs-gray-300: #dee2e6;
+      --bs-gray-400: #ced4da;
+      --bs-gray-500: #adb5bd;
+      --bs-gray-600: #6c757d;
+      --bs-gray-700: #495057;
+      --bs-gray-800: #343a40;
+      --bs-gray-900: #212529;
+      --bs-primary: #0d6efd;
+      --bs-secondary: #6c757d;
+      --bs-success: #198754;
+      --bs-info: #0dcaf0;
+      --bs-warning: #ffc107;
+      --bs-danger: #dc3545;
+      --bs-light: #f8f9fa;
+      --bs-dark: #212529;
+      --bs-primary-rgb: 13, 110, 253;
+      --bs-secondary-rgb: 108, 117, 125;
+      --bs-success-rgb: 25, 135, 84;
+      --bs-info-rgb: 13, 202, 240;
+      --bs-warning-rgb: 255, 193, 7;
+      --bs-danger-rgb: 220, 53, 69;
+      --bs-light-rgb: 248, 249, 250;
+      --bs-dark-rgb: 33, 37, 41;
+      --bs-primary-text-emphasis: #052c65;
+      --bs-secondary-text-emphasis: #2b2f32;
+      --bs-success-text-emphasis: #0a3622;
+      --bs-info-text-emphasis: #055160;
+      --bs-warning-text-emphasis: #664d03;
+      --bs-danger-text-emphasis: #58151c;
+      --bs-light-text-emphasis: #495057;
+      --bs-dark-text-emphasis: #495057;
+      --bs-primary-bg-subtle: #cfe2ff;
+      --bs-secondary-bg-subtle: #e2e3e5;
+      --bs-success-bg-subtle: #d1e7dd;
+      --bs-info-bg-subtle: #cff4fc;
+      --bs-warning-bg-subtle: #fff3cd;
+      --bs-danger-bg-subtle: #f8d7da;
+      --bs-light-bg-subtle: #fcfcfd;
+      --bs-dark-bg-subtle: #ced4da;
+      --bs-primary-border-subtle: #9ec5fe;
+      --bs-secondary-border-subtle: #c4c8cb;
+      --bs-success-border-subtle: #a3cfbb;
+      --bs-info-border-subtle: #9eeaf9;
+      --bs-warning-border-subtle: #ffe69c;
+      --bs-danger-border-subtle: #f1aeb5;
+      --bs-light-border-subtle: #e9ecef;
+      --bs-dark-border-subtle: #adb5bd;
+      --bs-white-rgb: 255, 255, 255;
+      --bs-black-rgb: 0, 0, 0;
+      --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+      --bs-body-font-family: var(--bs-font-sans-serif);
+      --bs-body-font-size: 1rem;
+      --bs-body-font-weight: 400;
+      --bs-body-line-height: 1.5;
+      --bs-body-color: #212529;
+      --bs-body-color-rgb: 33, 37, 41;
+      --bs-body-bg: #fff;
+      --bs-body-bg-rgb: 255, 255, 255;
+      --bs-emphasis-color: #000;
+      --bs-emphasis-color-rgb: 0, 0, 0;
+      --bs-secondary-color: rgba(33, 37, 41, .75);
+      --bs-secondary-color-rgb: 33, 37, 41;
+      --bs-secondary-bg: #e9ecef;
+      --bs-secondary-bg-rgb: 233, 236, 239;
+      --bs-tertiary-color: rgba(33, 37, 41, .5);
+      --bs-tertiary-color-rgb: 33, 37, 41;
+      --bs-tertiary-bg: #f8f9fa;
+      --bs-tertiary-bg-rgb: 248, 249, 250;
+      --bs-heading-color: inherit;
+      --bs-link-color: #0d6efd;
+      --bs-link-color-rgb: 13, 110, 253;
+      --bs-link-decoration: underline;
+      --bs-link-hover-color: #0a58ca;
+      --bs-link-hover-color-rgb: 10, 88, 202;
+      --bs-code-color: #d63384;
+      --bs-highlight-color: #212529;
+      --bs-highlight-bg: #fff3cd;
+      --bs-border-width: 1px;
+      --bs-border-style: solid;
+      --bs-border-color: #dee2e6;
+      --bs-border-color-translucent: rgba(0, 0, 0, .175);
+      --bs-border-radius: .375rem;
+      --bs-border-radius-sm: .25rem;
+      --bs-border-radius-lg: .5rem;
+      --bs-border-radius-xl: 1rem;
+      --bs-border-radius-xxl: 2rem;
+      --bs-border-radius-2xl: var(--bs-border-radius-xxl);
+      --bs-border-radius-pill: 50rem;
+      --bs-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+      --bs-box-shadow-sm: 0 .125rem .25rem rgba(0, 0, 0, .075);
+      --bs-box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, .175);
+      --bs-box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, .075);
+      --bs-focus-ring-width: .25rem;
+      --bs-focus-ring-opacity: .25;
+      --bs-focus-ring-color: rgba(13, 110, 253, .25);
+      --bs-form-valid-color: #198754;
+      --bs-form-valid-border-color: #198754;
+      --bs-form-invalid-color: #dc3545;
+      --bs-form-invalid-border-color: #dc3545
+    }
+
+    *,
+    :after,
+    :before {
+      box-sizing: border-box
+    }
+
+    @media (prefers-reduced-motion:no-preference) {
+      :root {
+        scroll-behavior: smooth
+      }
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--bs-body-font-family);
+      font-size: var(--bs-body-font-size);
+      font-weight: var(--bs-body-font-weight);
+      line-height: var(--bs-body-line-height);
+      color: var(--bs-body-color);
+      text-align: var(--bs-body-text-align);
+      background-color: var(--bs-body-bg);
+      -webkit-text-size-adjust: 100%;
+      -webkit-tap-highlight-color: transparent
+    }
+
+    hr {
+      margin: 1rem 0;
+      color: inherit;
+      border: 0;
+      border-top: var(--bs-border-width) solid;
+      opacity: .25
+    }
+
+    h1,
+    h2,
+    h4,
+    h5 {
+      margin-top: 0;
+      margin-bottom: .5rem;
+      font-weight: 500;
+      line-height: 1.2;
+      color: var(--bs-heading-color)
+    }
+
+    h1 {
+      font-size: calc(1.375rem + 1.5vw)
+    }
+
+    @media (min-width:1200px) {
+      h1 {
+        font-size: 2.5rem
+      }
+    }
+
+    h2 {
+      font-size: calc(1.325rem + .9vw)
+    }
+
+    @media (min-width:1200px) {
+      h2 {
+        font-size: 2rem
+      }
+    }
+
+    h4 {
+      font-size: calc(1.275rem + .3vw)
+    }
+
+    @media (min-width:1200px) {
+      h4 {
+        font-size: 1.5rem
+      }
+    }
+
+    h5 {
+      font-size: 1.25rem
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 1rem
+    }
+
+    ul {
+      padding-left: 2rem
+    }
+
+    ul {
+      margin-top: 0;
+      margin-bottom: 1rem
+    }
+
+    ul ul {
+      margin-bottom: 0
+    }
+
+    a {
+      color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+      text-decoration: underline
+    }
+
+    a:hover {
+      --bs-link-color-rgb: var(--bs-link-hover-color-rgb)
+    }
+
+    a:not([href]):not([class]),
+    a:not([href]):not([class]):hover {
+      color: inherit;
+      text-decoration: none
+    }
+
+    img {
+      vertical-align: middle
+    }
+
+    button {
+      border-radius: 0
+    }
+
+    button:focus:not(:focus-visible) {
+      outline: 0
+    }
+
+    button,
+    input {
+      margin: 0;
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit
+    }
+
+    button {
+      text-transform: none
+    }
+
+    [role=button] {
+      cursor: pointer
+    }
+
+    [type=button],
+    button {
+      -webkit-appearance: button
+    }
+
+    [type=button]:not(:disabled),
+    button:not(:disabled) {
+      cursor: pointer
+    }
+
+    .list-unstyled {
+      padding-left: 0;
+      list-style: none
+    }
+
+    .container,
+    .container-fluid {
+      --bs-gutter-x: 1.5rem;
+      --bs-gutter-y: 0;
+      width: 100%;
+      padding-right: calc(var(--bs-gutter-x) * .5);
+      padding-left: calc(var(--bs-gutter-x) * .5);
+      margin-right: auto;
+      margin-left: auto
+    }
+
+    @media (min-width:576px) {
+      .container {
+        max-width: 540px
+      }
+    }
+
+    @media (min-width:768px) {
+      .container {
+        max-width: 720px
+      }
+    }
+
+    @media (min-width:992px) {
+      .container {
+        max-width: 960px
+      }
+    }
+
+    @media (min-width:1200px) {
+      .container {
+        max-width: 1140px
+      }
+    }
+
+    @media (min-width:1400px) {
+      .container {
+        max-width: 1320px
+      }
+    }
+
+    :root {
+      --bs-breakpoint-xs: 0;
+      --bs-breakpoint-sm: 576px;
+      --bs-breakpoint-md: 768px;
+      --bs-breakpoint-lg: 992px;
+      --bs-breakpoint-xl: 1200px;
+      --bs-breakpoint-xxl: 1400px
+    }
+
+    .row {
+      --bs-gutter-x: 1.5rem;
+      --bs-gutter-y: 0;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: calc(-1 * var(--bs-gutter-y));
+      margin-right: calc(-.5 * var(--bs-gutter-x));
+      margin-left: calc(-.5 * var(--bs-gutter-x))
+    }
+
+    .row>* {
+      flex-shrink: 0;
+      width: 100%;
+      max-width: 100%;
+      padding-right: calc(var(--bs-gutter-x) * .5);
+      padding-left: calc(var(--bs-gutter-x) * .5);
+      margin-top: var(--bs-gutter-y)
+    }
+
+    .col {
+      flex: 1 0 0
+    }
+
+    .row-cols-1>* {
+      flex: 0 0 auto;
+      width: 100%
+    }
+
+    .col-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%
+    }
+
+    .col-8 {
+      flex: 0 0 auto;
+      width: 66.66666667%
+    }
+
+    .g-1 {
+      --bs-gutter-x: .25rem
+    }
+
+    .g-1 {
+      --bs-gutter-y: .25rem
+    }
+
+    .g-2 {
+      --bs-gutter-x: .5rem
+    }
+
+    .g-2 {
+      --bs-gutter-y: .5rem
+    }
+
+    .g-3 {
+      --bs-gutter-x: 1rem
+    }
+
+    .g-3 {
+      --bs-gutter-y: 1rem
+    }
+
+    .g-5 {
+      --bs-gutter-x: 3rem
+    }
+
+    .g-5 {
+      --bs-gutter-y: 3rem
+    }
+
+    @media (min-width:768px) {
+      .row-cols-md-2>* {
+        flex: 0 0 auto;
+        width: 50%
+      }
+
+      .row-cols-md-3>* {
+        flex: 0 0 auto;
+        width: 33.33333333%
+      }
+
+      .row-cols-md-4>* {
+        flex: 0 0 auto;
+        width: 25%
+      }
+
+      .col-md-2 {
+        flex: 0 0 auto;
+        width: 16.66666667%
+      }
+
+      .col-md-3 {
+        flex: 0 0 auto;
+        width: 25%
+      }
+
+      .col-md-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%
+      }
+    }
+
+    .form-control {
+      display: block;
+      width: 100%;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: var(--bs-body-color);
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-color: var(--bs-body-bg);
+      background-clip: padding-box;
+      border: var(--bs-border-width) solid var(--bs-border-color);
+      border-radius: var(--bs-border-radius);
+      transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+    }
+
+    @media (prefers-reduced-motion:reduce) {
+      .form-control {
+        transition: none
+      }
+    }
+
+    .form-control:focus {
+      color: var(--bs-body-color);
+      background-color: var(--bs-body-bg);
+      border-color: #86b7fe;
+      outline: 0;
+      box-shadow: 0 0 0 .25rem #0d6efd40
+    }
+
+    .form-control::-webkit-date-and-time-value {
+      min-width: 85px;
+      height: 1.5em;
+      margin: 0
+    }
+
+    .form-control::-webkit-datetime-edit {
+      display: block;
+      padding: 0
+    }
+
+    .form-control::placeholder {
+      color: var(--bs-secondary-color);
+      opacity: 1
+    }
+
+    .form-control:disabled {
+      background-color: var(--bs-secondary-bg);
+      opacity: 1
+    }
+
+    .form-control::-webkit-file-upload-button {
+      padding: .375rem .75rem;
+      margin: -.375rem -.75rem;
+      -webkit-margin-end: .75rem;
+      margin-inline-end: .75rem;
+      color: var(--bs-body-color);
+      background-color: var(--bs-tertiary-bg);
+      pointer-events: none;
+      border-color: inherit;
+      border-style: solid;
+      border-width: 0;
+      border-inline-end-width: var(--bs-border-width);
+      border-radius: 0;
+      -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+    }
+
+    .form-control::file-selector-button {
+      padding: .375rem .75rem;
+      margin: -.375rem -.75rem;
+      -webkit-margin-end: .75rem;
+      margin-inline-end: .75rem;
+      color: var(--bs-body-color);
+      background-color: var(--bs-tertiary-bg);
+      pointer-events: none;
+      border-color: inherit;
+      border-style: solid;
+      border-width: 0;
+      border-inline-end-width: var(--bs-border-width);
+      border-radius: 0;
+      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+    }
+
+    @media (prefers-reduced-motion:reduce) {
+      .form-control::-webkit-file-upload-button {
+        -webkit-transition: none;
+        transition: none
+      }
+
+      .form-control::file-selector-button {
+        transition: none
+      }
+    }
+
+    .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
+      background-color: var(--bs-secondary-bg)
+    }
+
+    .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
+      background-color: var(--bs-secondary-bg)
+    }
+
+    .btn {
+      --bs-btn-padding-x: .75rem;
+      --bs-btn-padding-y: .375rem;
+      --bs-btn-font-family: ;
+      --bs-btn-font-size: 1rem;
+      --bs-btn-font-weight: 400;
+      --bs-btn-line-height: 1.5;
+      --bs-btn-color: var(--bs-body-color);
+      --bs-btn-bg: transparent;
+      --bs-btn-border-width: var(--bs-border-width);
+      --bs-btn-border-color: transparent;
+      --bs-btn-border-radius: var(--bs-border-radius);
+      --bs-btn-hover-border-color: transparent;
+      --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+      --bs-btn-disabled-opacity: .65;
+      --bs-btn-focus-box-shadow: 0 0 0 .25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+      display: inline-block;
+      padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+      font-family: var(--bs-btn-font-family);
+      font-size: var(--bs-btn-font-size);
+      font-weight: var(--bs-btn-font-weight);
+      line-height: var(--bs-btn-line-height);
+      color: var(--bs-btn-color);
+      text-align: center;
+      text-decoration: none;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+      border-radius: var(--bs-btn-border-radius);
+      background-color: var(--bs-btn-bg);
+      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+    }
+
+    @media (prefers-reduced-motion:reduce) {
+      .btn {
+        transition: none
+      }
+    }
+
+    .btn:hover {
+      color: var(--bs-btn-hover-color);
+      background-color: var(--bs-btn-hover-bg);
+      border-color: var(--bs-btn-hover-border-color)
+    }
+
+    .btn:focus-visible {
+      color: var(--bs-btn-hover-color);
+      background-color: var(--bs-btn-hover-bg);
+      border-color: var(--bs-btn-hover-border-color);
+      outline: 0;
+      box-shadow: var(--bs-btn-focus-box-shadow)
+    }
+
+    .btn:first-child:active {
+      color: var(--bs-btn-active-color);
+      background-color: var(--bs-btn-active-bg);
+      border-color: var(--bs-btn-active-border-color)
+    }
+
+    .btn:first-child:active:focus-visible {
+      box-shadow: var(--bs-btn-focus-box-shadow)
+    }
+
+    .btn:disabled {
+      color: var(--bs-btn-disabled-color);
+      pointer-events: none;
+      background-color: var(--bs-btn-disabled-bg);
+      border-color: var(--bs-btn-disabled-border-color);
+      opacity: var(--bs-btn-disabled-opacity)
+    }
+
+    .btn-primary {
+      --bs-btn-color: #fff;
+      --bs-btn-bg: #0d6efd;
+      --bs-btn-border-color: #0d6efd;
+      --bs-btn-hover-color: #fff;
+      --bs-btn-hover-bg: #0b5ed7;
+      --bs-btn-hover-border-color: #0a58ca;
+      --bs-btn-focus-shadow-rgb: 49, 132, 253;
+      --bs-btn-active-color: #fff;
+      --bs-btn-active-bg: #0a58ca;
+      --bs-btn-active-border-color: #0a53be;
+      --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+      --bs-btn-disabled-color: #fff;
+      --bs-btn-disabled-bg: #0d6efd;
+      --bs-btn-disabled-border-color: #0d6efd
+    }
+
+    .btn-danger {
+      --bs-btn-color: #fff;
+      --bs-btn-bg: #dc3545;
+      --bs-btn-border-color: #dc3545;
+      --bs-btn-hover-color: #fff;
+      --bs-btn-hover-bg: #bb2d3b;
+      --bs-btn-hover-border-color: #b02a37;
+      --bs-btn-focus-shadow-rgb: 225, 83, 97;
+      --bs-btn-active-color: #fff;
+      --bs-btn-active-bg: #b02a37;
+      --bs-btn-active-border-color: #a52834;
+      --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+      --bs-btn-disabled-color: #fff;
+      --bs-btn-disabled-bg: #dc3545;
+      --bs-btn-disabled-border-color: #dc3545
+    }
+
+    .btn-outline-info {
+      --bs-btn-color: #0dcaf0;
+      --bs-btn-border-color: #0dcaf0;
+      --bs-btn-hover-color: #000;
+      --bs-btn-hover-bg: #0dcaf0;
+      --bs-btn-hover-border-color: #0dcaf0;
+      --bs-btn-focus-shadow-rgb: 13, 202, 240;
+      --bs-btn-active-color: #000;
+      --bs-btn-active-bg: #0dcaf0;
+      --bs-btn-active-border-color: #0dcaf0;
+      --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+      --bs-btn-disabled-color: #0dcaf0;
+      --bs-btn-disabled-bg: transparent;
+      --bs-btn-disabled-border-color: #0dcaf0;
+      --bs-gradient: none
+    }
+
+    .collapse:not(.show) {
+      display: none
+    }
+
+    .dropdown {
+      position: relative
+    }
+
+    .dropdown-menu {
+      --bs-dropdown-zindex: 1000;
+      --bs-dropdown-min-width: 10rem;
+      --bs-dropdown-padding-x: 0;
+      --bs-dropdown-padding-y: .5rem;
+      --bs-dropdown-spacer: .125rem;
+      --bs-dropdown-font-size: 1rem;
+      --bs-dropdown-color: var(--bs-body-color);
+      --bs-dropdown-bg: var(--bs-body-bg);
+      --bs-dropdown-border-color: var(--bs-border-color-translucent);
+      --bs-dropdown-border-radius: var(--bs-border-radius);
+      --bs-dropdown-border-width: var(--bs-border-width);
+      --bs-dropdown-inner-border-radius: calc(var(--bs-border-radius) - var(--bs-border-width));
+      --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
+      --bs-dropdown-divider-margin-y: .5rem;
+      --bs-dropdown-box-shadow: var(--bs-box-shadow);
+      --bs-dropdown-link-color: var(--bs-body-color);
+      --bs-dropdown-link-hover-color: var(--bs-body-color);
+      --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
+      --bs-dropdown-link-active-color: #fff;
+      --bs-dropdown-link-active-bg: #0d6efd;
+      --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
+      --bs-dropdown-item-padding-x: 1rem;
+      --bs-dropdown-item-padding-y: .25rem;
+      --bs-dropdown-header-color: #6c757d;
+      --bs-dropdown-header-padding-x: 1rem;
+      --bs-dropdown-header-padding-y: .5rem;
+      position: absolute;
+      z-index: var(--bs-dropdown-zindex);
+      display: none;
+      min-width: var(--bs-dropdown-min-width);
+      padding: var(--bs-dropdown-padding-y) var(--bs-dropdown-padding-x);
+      margin: 0;
+      font-size: var(--bs-dropdown-font-size);
+      color: var(--bs-dropdown-color);
+      text-align: left;
+      list-style: none;
+      background-color: var(--bs-dropdown-bg);
+      background-clip: padding-box;
+      border: var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);
+      border-radius: var(--bs-dropdown-border-radius)
+    }
+
+    .dropdown-divider {
+      height: 0;
+      margin: var(--bs-dropdown-divider-margin-y) 0;
+      overflow: hidden;
+      border-top: 1px solid var(--bs-dropdown-divider-bg);
+      opacity: 1
+    }
+
+    .dropdown-item {
+      display: block;
+      width: 100%;
+      padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+      clear: both;
+      font-weight: 400;
+      color: var(--bs-dropdown-link-color);
+      text-align: inherit;
+      text-decoration: none;
+      white-space: nowrap;
+      background-color: transparent;
+      border: 0;
+      border-radius: var(--bs-dropdown-item-border-radius, 0)
+    }
+
+    .dropdown-item:focus,
+    .dropdown-item:hover {
+      color: var(--bs-dropdown-link-hover-color);
+      background-color: var(--bs-dropdown-link-hover-bg)
+    }
+
+    .dropdown-item:active {
+      color: var(--bs-dropdown-link-active-color);
+      text-decoration: none;
+      background-color: var(--bs-dropdown-link-active-bg)
+    }
+
+    .dropdown-item:disabled {
+      color: var(--bs-dropdown-link-disabled-color);
+      pointer-events: none;
+      background-color: transparent
+    }
+
+    .nav-link {
+      display: block;
+      padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+      font-size: var(--bs-nav-link-font-size);
+      font-weight: var(--bs-nav-link-font-weight);
+      color: var(--bs-nav-link-color);
+      text-decoration: none;
+      background: 0 0;
+      border: 0;
+      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
+    }
+
+    @media (prefers-reduced-motion:reduce) {
+      .nav-link {
+        transition: none
+      }
+    }
+
+    .nav-link:focus,
+    .nav-link:hover {
+      color: var(--bs-nav-link-hover-color)
+    }
+
+    .nav-link:focus-visible {
+      outline: 0;
+      box-shadow: 0 0 0 .25rem #0d6efd40
+    }
+
+    .nav-link:disabled {
+      color: var(--bs-nav-link-disabled-color);
+      pointer-events: none;
+      cursor: default
+    }
+
+    .navbar {
+      --bs-navbar-padding-x: 0;
+      --bs-navbar-padding-y: .5rem;
+      --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), .65);
+      --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), .8);
+      --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), .3);
+      --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
+      --bs-navbar-brand-padding-y: .3125rem;
+      --bs-navbar-brand-margin-end: 1rem;
+      --bs-navbar-brand-font-size: 1.25rem;
+      --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
+      --bs-navbar-brand-hover-color: rgba(var(--bs-emphasis-color-rgb), 1);
+      --bs-navbar-nav-link-padding-x: .5rem;
+      --bs-navbar-toggler-padding-y: .25rem;
+      --bs-navbar-toggler-padding-x: .75rem;
+      --bs-navbar-toggler-font-size: 1.25rem;
+      --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), .15);
+      --bs-navbar-toggler-border-radius: var(--bs-border-radius);
+      --bs-navbar-toggler-focus-width: .25rem;
+      --bs-navbar-toggler-transition: box-shadow .15s ease-in-out;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x)
+    }
+
+    .navbar>.container-fluid {
+      display: flex;
+      flex-wrap: inherit;
+      align-items: center;
+      justify-content: space-between
+    }
+
+    .navbar-nav {
+      --bs-nav-link-padding-x: 0;
+      --bs-nav-link-padding-y: .5rem;
+      --bs-nav-link-font-weight: ;
+      --bs-nav-link-color: var(--bs-navbar-color);
+      --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+      --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+      display: flex;
+      flex-direction: column;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none
+    }
+
+    .navbar-nav .dropdown-menu {
+      position: static
+    }
+
+    .navbar-collapse {
+      flex-grow: 1;
+      flex-basis: 100%;
+      align-items: center
+    }
+
+    .navbar-toggler {
+      padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+      font-size: var(--bs-navbar-toggler-font-size);
+      line-height: 1;
+      color: var(--bs-navbar-color);
+      background-color: transparent;
+      border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+      border-radius: var(--bs-navbar-toggler-border-radius);
+      transition: var(--bs-navbar-toggler-transition)
+    }
+
+    @media (prefers-reduced-motion:reduce) {
+      .navbar-toggler {
+        transition: none
+      }
+    }
+
+    .navbar-toggler:hover {
+      text-decoration: none
+    }
+
+    .navbar-toggler:focus {
+      text-decoration: none;
+      outline: 0;
+      box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width)
+    }
+
+    .navbar-toggler-icon {
+      display: inline-block;
+      width: 1.5em;
+      height: 1.5em;
+      vertical-align: middle;
+      background-image: var(--bs-navbar-toggler-icon-bg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%
+    }
+
+    @media (min-width:768px) {
+      .navbar-expand-md {
+        flex-wrap: nowrap;
+        justify-content: flex-start
+      }
+
+      .navbar-expand-md .navbar-nav {
+        flex-direction: row
+      }
+
+      .navbar-expand-md .navbar-nav .dropdown-menu {
+        position: absolute
+      }
+
+      .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: var(--bs-navbar-nav-link-padding-x);
+        padding-left: var(--bs-navbar-nav-link-padding-x)
+      }
+
+      .navbar-expand-md .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto
+      }
+
+      .navbar-expand-md .navbar-toggler {
+        display: none
+      }
+    }
+
+    .card {
+      --bs-card-spacer-y: 1rem;
+      --bs-card-spacer-x: 1rem;
+      --bs-card-title-spacer-y: .5rem;
+      --bs-card-title-color: ;
+      --bs-card-subtitle-color: ;
+      --bs-card-border-width: var(--bs-border-width);
+      --bs-card-border-color: var(--bs-border-color-translucent);
+      --bs-card-border-radius: var(--bs-border-radius);
+      --bs-card-box-shadow: ;
+      --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+      --bs-card-cap-padding-y: .5rem;
+      --bs-card-cap-padding-x: 1rem;
+      --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), .03);
+      --bs-card-cap-color: ;
+      --bs-card-height: ;
+      --bs-card-color: ;
+      --bs-card-bg: var(--bs-body-bg);
+      --bs-card-img-overlay-padding: 1rem;
+      --bs-card-group-margin: .75rem;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      height: var(--bs-card-height);
+      color: var(--bs-body-color);
+      word-wrap: break-word;
+      background-color: var(--bs-card-bg);
+      background-clip: border-box;
+      border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+      border-radius: var(--bs-card-border-radius)
+    }
+
+    .card-body {
+      flex: 1 1 auto;
+      padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+      color: var(--bs-card-color)
+    }
+
+    .card-title {
+      margin-bottom: var(--bs-card-title-spacer-y);
+      color: var(--bs-card-title-color)
+    }
+
+    .card-text:last-child {
+      margin-bottom: 0
+    }
+
+    .card-img-top {
+      width: 100%
+    }
+
+    .card-img-top {
+      border-top-left-radius: var(--bs-card-inner-border-radius);
+      border-top-right-radius: var(--bs-card-inner-border-radius)
+    }
+
+    :root {
+      --bs-btn-close-filter:
+    }
+
+    :root {
+      --bs-carousel-indicator-active-bg: #fff;
+      --bs-carousel-caption-color: #fff;
+      --bs-carousel-control-icon-filter:
+    }
+
+    .d-flex {
+      display: flex !important
+    }
+
+    .position-relative {
+      position: relative !important
+    }
+
+    .border-secondary {
+      --bs-border-opacity: 1;
+      border-color: rgba(var(--bs-secondary-rgb), var(--bs-border-opacity)) !important
+    }
+
+    .w-100 {
+      width: 100% !important
+    }
+
+    .h-100 {
+      height: 100% !important
+    }
+
+    .flex-column {
+      flex-direction: column !important
+    }
+
+    .flex-wrap {
+      flex-wrap: wrap !important
+    }
+
+    .justify-content-end {
+      justify-content: flex-end !important
+    }
+
+    .justify-content-center {
+      justify-content: center !important
+    }
+
+    .justify-content-between {
+      justify-content: space-between !important
+    }
+
+    .justify-content-evenly {
+      justify-content: space-evenly !important
+    }
+
+    .align-items-center {
+      align-items: center !important
+    }
+
+    .align-content-center {
+      align-content: center !important
+    }
+
+    .m-auto {
+      margin: auto !important
+    }
+
+    .mt-4 {
+      margin-top: 1.5rem !important
+    }
+
+    .me-2 {
+      margin-right: .5rem !important
+    }
+
+    .mb-4 {
+      margin-bottom: 1.5rem !important
+    }
+
+    .ms-auto {
+      margin-left: auto !important
+    }
+
+    .px-5 {
+      padding-right: 3rem !important;
+      padding-left: 3rem !important
+    }
+
+    .gap-0 {
+      gap: 0 !important
+    }
+
+    .gap-2 {
+      gap: .5rem !important
+    }
+
+    .fw-bold {
+      font-weight: 700 !important
+    }
+
+    .text-center {
+      text-align: center !important
+    }
+
+    .text-danger {
+      --bs-text-opacity: 1;
+      color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important
+    }
+
+    .text-light {
+      --bs-text-opacity: 1;
+      color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important
+    }
+
+    .text-white {
+      --bs-text-opacity: 1;
+      color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important
+    }
+
+    .bg-danger {
+      --bs-bg-opacity: 1;
+      background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important
+    }
+
+    .bg-body-tertiary {
+      --bs-bg-opacity: 1;
+      background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important
+    }
+
+    .rounded-2 {
+      border-radius: var(--bs-border-radius) !important
+    }
+
+    .fa-brands,
+    .fa-solid,
+    .fab {
+      --_fa-family: var(--fa-family, var(--fa-style-family, "Font Awesome 7 Free"));
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      display: var(--fa-display, inline-block);
+      font-family: var(--_fa-family);
+      font-feature-settings: normal;
+      font-style: normal;
+      font-synthesis: none;
+      font-variant: normal;
+      font-weight: var(--fa-style, 900);
+      line-height: 1;
+      text-align: center;
+      text-rendering: auto;
+      width: var(--fa-width, 1.25em)
+    }
+
+    .fa-phone {
+      --fa: "\f095"
+    }
+
+    .fa-envelope {
+      --fa: "\f0e0"
+    }
+
+    .fa-phone-volume {
+      --fa: "\f2a0"
+    }
+
+    .fa-location-dot {
+      --fa: "\f3c5"
+    }
+
+    :root {
+      --fa-family-brands: "Font Awesome 7 Brands";
+      --fa-font-brands: normal 400 1em/1 var(--fa-family-brands)
+    }
+
+    .fa-brands,
+    .fab {
+      --fa-family: var(--fa-family-brands);
+      --fa-style: 400
+    }
+
+    .fa-twitter {
+      --fa: "\f099"
+    }
+
+    .fa-instagram {
+      --fa: "\f16d"
+    }
+
+    .fa-whatsapp {
+      --fa: "\f232"
+    }
+
+    .fa-facebook-f {
+      --fa: "\f39e"
+    }
+
+    :root {
+      --fa-font-regular: normal 400 1em/1 var(--fa-family-classic)
+    }
+
+    :root {
+      --fa-family-classic: "Font Awesome 7 Free";
+      --fa-font-solid: normal 900 1em/1 var(--fa-family-classic);
+      --fa-style-family-classic: var(--fa-family-classic)
+    }
+
+    .fa-solid {
+      --fa-style: 900
+    }
+
+    body {
+      font-family: Inter, sans-serif
+    }
+
+    h1,
+    h2,
+    h4,
+    h5 {
+      font-family: Manrope, sans-serif
+    }
+
+    :root {
+      --mian-black: #000E24;
+      --main-blue: #2196F3;
+      --dark-blue: #00296C;
+      --main-bg: #F4F8FF
+    }
+  </style>
+  <link rel="stylesheet" href="styles-GMYQX2Z5.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="styles-GMYQX2Z5.css">
+  </noscript>
+  <style ng-app-id="ng">
+    *[_ngcontent-ng-c3886827313] {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box
+    }
+
+    .top-nav[_ngcontent-ng-c3886827313] {
+      background-color: var(--mian-black);
+      padding-block: 8px;
+      padding-inline: 64px
+    }
+
+    .center[_ngcontent-ng-c3886827313] {
+      gap: 36px
+    }
+
+    .center[_ngcontent-ng-c3886827313] img[_ngcontent-ng-c3886827313] {
+      padding-right: 7px
+    }
+
+    p[_ngcontent-ng-c3886827313],
+    span[_ngcontent-ng-c3886827313] {
+      font-weight: 600;
+      font-style: Semi Bold;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: -2%
+    }
+
+    ul[_ngcontent-ng-c3886827313] {
+      gap: 10px
+    }
+
+    li[_ngcontent-ng-c3886827313] a[_ngcontent-ng-c3886827313] {
+      color: var(--mian-black);
+      border-radius: 50%;
+      background-color: #fff;
+      padding: 5px;
+      font-size: 10px
+    }
+  </style>
+  <style ng-app-id="ng">
+    *[_ngcontent-ng-c2498913595] {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box
+    }
+
+    nav[_ngcontent-ng-c2498913595] {
+      padding-block: 16px;
+      padding-inline: 64px
+    }
+
+    nav[_ngcontent-ng-c2498913595] li[_ngcontent-ng-c2498913595] a[_ngcontent-ng-c2498913595] {
+      font-weight: 600;
+      font-style: Semi Bold;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0%
+    }
+
+    li.active[_ngcontent-ng-c2498913595] a[_ngcontent-ng-c2498913595] {
+      color: var(--main-blue)
+    }
+
+    li[_ngcontent-ng-c2498913595] a[_ngcontent-ng-c2498913595] {
+      color: #000
+    }
+
+    ul[_ngcontent-ng-c2498913595] {
+      gap: 10px
+    }
+
+    li[_ngcontent-ng-c2498913595] img[_ngcontent-ng-c2498913595] {
+      margin-left: 10px
+    }
+
+    nav[_ngcontent-ng-c2498913595] button[_ngcontent-ng-c2498913595] {
+      background-color: var(--main-blue);
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -2%;
+      color: #fff;
+      padding-block: 14px;
+      padding-inline: 32px;
+      margin-left: 20px
+    }
+  </style>
+  <style ng-app-id="ng">
+    section[_ngcontent-ng-c3057586004] {
+      background-image: url(/images-header/background.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat !important;
+      padding-inline: 64px !important;
+      gap: 48px
+    }
+
+    h1[_ngcontent-ng-c3057586004] {
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 58px;
+      letter-spacing: -2px
+    }
+
+    p[_ngcontent-ng-c3057586004] {
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 23px;
+      letter-spacing: -2%
+    }
+
+    .buttons[_ngcontent-ng-c3057586004] [_ngcontent-ng-c3057586004]:nth-of-type(1) {
+      margin-right: 20px
+    }
+
+    button[_ngcontent-ng-c3057586004] {
+      border-radius: 4px;
+      padding-block: 20px;
+      padding-inline: 40px;
+      font-family: Inter;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 18px;
+      line-height: 23px;
+      letter-spacing: -2%
+    }
+
+    .img-man[_ngcontent-ng-c3057586004] {
+      width: 398px;
+      height: 530.5px;
+      opacity: 1
+    }
+  </style>
+  <style ng-app-id="ng">
+    section[_ngcontent-ng-c1016580246] {
+      padding-top: 80px;
+      padding-bottom: 40px
+    }
+
+    h5[_ngcontent-ng-c1016580246] {
+      font-weight: 600;
+      font-style: SemiBold;
+      font-size: 18px;
+      line-height: 23px;
+      letter-spacing: -2%;
+      color: var(--main-blue)
+    }
+
+    h1[_ngcontent-ng-c1016580246] {
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: -2%;
+      text-align: center;
+      color: var(--dark-blue)
+    }
+  </style>
+  <style ng-app-id="ng">
+    section[_ngcontent-ng-c2942923105] {
+      padding-inline: 64px;
+      padding-bottom: 80px
+    }
+
+    .row[_ngcontent-ng-c2942923105] {
+      row-gap: 24px
+    }
+
+    .card-body[_ngcontent-ng-c2942923105] {
+      padding-inline: 20px;
+      display: grid;
+      gap: 12px !important
+    }
+
+    .card-fotter[_ngcontent-ng-c2942923105] {
+      padding-inline: 20px !important;
+      padding-top: 20px
+    }
+
+    .icon[_ngcontent-ng-c2942923105] {
+      width: 36px;
+      height: 36px;
+      gap: 10px
+    }
+
+    h4[_ngcontent-ng-c2942923105] {
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -.2px
+    }
+
+    p[_ngcontent-ng-c2942923105] {
+      font-weight: 400;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: -2%
+    }
+
+    #ACard[_ngcontent-ng-c2942923105] {
+      background-color: var(--main-blue)
+    }
+
+    #ACard[_ngcontent-ng-c2942923105] .card-body[_ngcontent-ng-c2942923105],
+    #ACard[_ngcontent-ng-c2942923105] .card-fotter[_ngcontent-ng-c2942923105] {
+      background-color: var(--main-blue);
+      color: #fff
+    }
+
+    #BCard[_ngcontent-ng-c2942923105] p[_ngcontent-ng-c2942923105] {
+      color: var(--dark-blue)
+    }
+  </style>
+  <style ng-app-id="ng">
+    section[_ngcontent-ng-c2418115144] {
+      color: var(--dark-blue);
+      padding-inline: 32px;
+      padding-top: 100px;
+      padding-bottom: 50px;
+      gap: 20px
+    }
+
+    .image-container[_ngcontent-ng-c2418115144] {
+      position: relative
+    }
+
+    .image-container[_ngcontent-ng-c2418115144]:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 75%;
+      height: 95%;
+      background-color: #2196f3;
+      z-index: -1
+    }
+
+    .image-container[_ngcontent-ng-c2418115144] img[_ngcontent-ng-c2418115144] {
+      position: relative;
+      width: 232px;
+      height: 246px;
+      top: -15px;
+      right: -25px;
+      gap: 10px;
+      opacity: 1;
+      padding: 10px
+    }
+
+    h1[_ngcontent-ng-c2418115144] {
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: -2px
+    }
+
+    p[_ngcontent-ng-c2418115144] {
+      padding-top: 20px;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 23px;
+      letter-spacing: -1px
+    }
+
+    ul[_ngcontent-ng-c2418115144] {
+      padding-top: 10px;
+      padding-left: 0
+    }
+
+    li[_ngcontent-ng-c2418115144] img[_ngcontent-ng-c2418115144] {
+      padding-right: 12px
+    }
+
+    a[_ngcontent-ng-c2418115144] {
+      text-decoration: none;
+      color: var(--dark-blue)
+    }
+
+    button[_ngcontent-ng-c2418115144] {
+      margin-top: 20px;
+      background-color: var(--main-blue);
+      color: #fff;
+      border: none;
+      outline: none;
+      border-radius: 4px;
+      padding-block: 10px;
+      padding-inline: 14px;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -.2
+    }
+
+    button[_ngcontent-ng-c2418115144] img[_ngcontent-ng-c2418115144] {
+      padding-left: 10px
+    }
+  </style>
+  <style ng-app-id="ng">
+    section[_ngcontent-ng-c3277765958] {
+      padding-top: 80px;
+      padding-bottom: 40px;
+      background-color: var(--main-bg)
+    }
+
+    h5[_ngcontent-ng-c3277765958] {
+      font-weight: 600;
+      font-style: SemiBold;
+      font-size: 18px;
+      line-height: 23px;
+      letter-spacing: -2%;
+      color: var(--main-blue)
+    }
+
+    h1[_ngcontent-ng-c3277765958] {
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: -2%;
+      text-align: center;
+      color: var(--dark-blue)
+    }
+  </style>
+  <style ng-app-id="ng">
+    section[_ngcontent-ng-c1727487178] {
+      background-color: var(--main-bg);
+      padding-inline: 64px;
+      padding-bottom: 100px
+    }
+
+    h4[_ngcontent-ng-c1727487178] {
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: -.2px;
+      color: var(--dark-blue)
+    }
+
+    h1[_ngcontent-ng-c1727487178] {
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 48px;
+      line-height: 58px;
+      letter-spacing: -2%;
+      color: var(--main-blue)
+    }
+
+    span[_ngcontent-ng-c1727487178] {
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 18px;
+      line-height: 23px;
+      letter-spacing: -2%;
+      color: var(--dark-blue)
+    }
+
+    ul[_ngcontent-ng-c1727487178] {
+      list-style: none;
+      padding-left: 0;
+      display: grid;
+      gap: 20px;
+      padding-block: 20px
+    }
+
+    li[_ngcontent-ng-c1727487178] img[_ngcontent-ng-c1727487178] {
+      padding-right: 10px
+    }
+
+    a[_ngcontent-ng-c1727487178] {
+      text-decoration: none;
+      color: var(--dark-blue);
+      font-weight: 400;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: -.2px
+    }
+
+    #b13[_ngcontent-ng-c1727487178] {
+      background-color: #fff;
+      border: 2px solid var(--main-blue);
+      color: var(--dark-blue);
+      outline: none;
+      padding-block: 16px;
+      padding-inline: 12px;
+      margin-top: 10px;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -2%;
+      text-align: center;
+      margin-bottom: 20px
+    }
+
+    #b2[_ngcontent-ng-c1727487178] {
+      background-color: var(--main-blue);
+      color: #fff !important;
+      outline: var(--main-blue);
+      padding-block: 16px;
+      padding-inline: 12px;
+      margin-top: 10px;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -2%;
+      text-align: center;
+      color: var(--dark-blue);
+      margin-bottom: 20px
+    }
+
+    .img-footer[_ngcontent-ng-c1727487178] {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%
+    }
+  </style>
+  <style ng-app-id="ng">
+    section[_ngcontent-ng-c2041863817] {
+      padding-inline: 64px;
+      padding-bottom: 100px
+    }
+
+    .cards[_ngcontent-ng-c2041863817] img[_ngcontent-ng-c2041863817] {
+      height: 306px
+    }
+
+    ul[_ngcontent-ng-c2041863817] {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      justify-content: center
+    }
+
+    a[_ngcontent-ng-c2041863817] {
+      text-decoration: none;
+      color: var(--dark-blue)
+    }
+
+    h4[_ngcontent-ng-c2041863817] {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: -2%
+    }
+  </style>
+  <style ng-app-id="ng">
+    section[_ngcontent-ng-c3822401197] {
+      background-color: var(--main-bg);
+      padding-block: 60px;
+      padding-inline: 32px
+    }
+
+    .title[_ngcontent-ng-c3822401197] {
+      color: var(--main-blue);
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 30px;
+      line-height: 44px;
+      letter-spacing: -.2px;
+      text-align: center
+    }
+
+    .provider[_ngcontent-ng-c3822401197] {
+      display: flex;
+      gap: 40px
+    }
+
+    .providing[_ngcontent-ng-c3822401197] {
+      gap: 4px
+    }
+
+    .icon[_ngcontent-ng-c3822401197] {
+      color: var(--main-blue)
+    }
+
+    .hprovider[_ngcontent-ng-c3822401197] {
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: -.2px;
+      color: var(--dark-blue)
+    }
+
+    span[_ngcontent-ng-c3822401197] {
+      color: var(--main-blue)
+    }
+
+    p[_ngcontent-ng-c3822401197] {
+      font-weight: 600;
+      font-style: Semi Bold;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: -.2px;
+      color: var(--dark-blue)
+    }
+  </style>
+  <style ng-app-id="ng">
+    section[_ngcontent-ng-c2978113021] {
+      color: var(--dark-blue);
+      margin-bottom: 100px
+    }
+
+    .review[_ngcontent-ng-c2978113021] {
+      background-color: var(--main-bg)
+    }
+
+    .boody[_ngcontent-ng-c2978113021] {
+      padding-inline: 24px;
+      padding-block: 40px
+    }
+
+    .pbody[_ngcontent-ng-c2978113021] {
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -.2px;
+      padding-block: 20px
+    }
+
+    .right[_ngcontent-ng-c2978113021] {
+      padding-left: 10px
+    }
+
+    .right[_ngcontent-ng-c2978113021] h4[_ngcontent-ng-c2978113021] {
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: -2%
+    }
+
+    .right[_ngcontent-ng-c2978113021] p[_ngcontent-ng-c2978113021] {
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -.2px
+    }
+  </style>
+  <style ng-app-id="ng">
+    section[_ngcontent-ng-c1149769737] {
+      padding-inline: 64px;
+      padding-block: 60px
+    }
+
+    h5[_ngcontent-ng-c1149769737] {
+      font-weight: 600;
+      font-style: SemiBold;
+      font-size: 18px;
+      line-height: 23px;
+      letter-spacing: -2%;
+      color: var(--main-blue)
+    }
+
+    h1[_ngcontent-ng-c1149769737] {
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: -2%;
+      color: var(--dark-blue)
+    }
+  </style>
+  <style ng-app-id="ng">
+    section[_ngcontent-ng-c1812511714] {
+      padding-inline: 64px;
+      padding-bottom: 60px
+    }
+
+    img[_ngcontent-ng-c1812511714] {
+      width: 150px;
+      height: 150px
+    }
+  </style>
+  <style ng-app-id="ng">
+    section[_ngcontent-ng-c1362999061] {
+      background-color: var(--main-bg);
+      padding-inline: 64px
+    }
+
+    .blog[_ngcontent-ng-c1362999061] {
+      background-color: #fff
+    }
+
+    .title[_ngcontent-ng-c1362999061] {
+      font-weight: 400;
+      font-style: normal;
+      font-size: 17px;
+      line-height: 23px;
+      letter-spacing: -.2px;
+      color: var(--dark-blue);
+      padding-bottom: 40px
+    }
+
+    h4[_ngcontent-ng-c1362999061] {
+      color: var(--dark-blue);
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: -.2px
+    }
+
+    .calender-p[_ngcontent-ng-c1362999061] {
+      font-weight: 600;
+      font-style: Semi Bold;
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--main-blue)
+    }
+
+    .decription[_ngcontent-ng-c1362999061] {
+      font-weight: 400;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: -2%;
+      color: var(--dark-blue) !
+    }
+
+    .fotter-p[_ngcontent-ng-c1362999061] {
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: -2%;
+      color: var(--main-blue)
+    }
+
+    .left[_ngcontent-ng-c1362999061] img[_ngcontent-ng-c1362999061] {
+      width: 160%;
+      height: 180px;
+      padding-right: 80px
+    }
+
+    span[_ngcontent-ng-c1362999061] {
+      padding-left: 10px
+    }
+
+    button[_ngcontent-ng-c1362999061] {
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 18px;
+      line-height: 23px;
+      letter-spacing: -.2px;
+      padding-block: 20px;
+      padding-inline: 40px;
+      border-radius: 4px;
+      margin-top: 40px;
+      background-color: var(--main-blue);
+      color: #fff;
+      outline: none;
+      border: none;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%);
+      margin-bottom: 100px
+    }
+  </style>
+  <style ng-app-id="ng">
+    body[_ngcontent-ng-c2425689991] {
+      background-color: #111827;
+      color: #fff
+    }
+
+    section[_ngcontent-ng-c2425689991] {
+      padding-inline: 64px !important;
+      padding-block: 60px !important
+    }
+
+    .footer[_ngcontent-ng-c2425689991] {
+      background-color: #111827;
+      padding: 60px 0 20px
+    }
+
+    .footer[_ngcontent-ng-c2425689991] h5[_ngcontent-ng-c2425689991] {
+      font-weight: 600;
+      margin-bottom: 20px
+    }
+
+    .footer[_ngcontent-ng-c2425689991] p[_ngcontent-ng-c2425689991],
+    .footer[_ngcontent-ng-c2425689991] a[_ngcontent-ng-c2425689991] {
+      color: #cbd5e1;
+      font-size: 14px;
+      text-decoration: none
+    }
+
+    .footer[_ngcontent-ng-c2425689991] a[_ngcontent-ng-c2425689991]:hover {
+      color: #fff
+    }
+
+    .footer[_ngcontent-ng-c2425689991] .social-icons[_ngcontent-ng-c2425689991] a[_ngcontent-ng-c2425689991] {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 50%;
+      background: #1f2937;
+      margin-right: 10px;
+      color: #fff
+    }
+
+    .footer[_ngcontent-ng-c2425689991] .social-icons[_ngcontent-ng-c2425689991] a[_ngcontent-ng-c2425689991]:hover {
+      background: #2563eb
+    }
+
+    .footer-bottom[_ngcontent-ng-c2425689991] {
+      border-top: 1px solid #374151;
+      margin-top: 40px;
+      padding-top: 15px;
+      font-size: 13px;
+      color: #9ca3af
+    }
+
+    .btn-danger[_ngcontent-ng-c2425689991] {
+      background-color: #ef4444;
+      border: none;
+      padding: 10px 25px;
+      font-weight: 600
+    }
+
+    .btn-primary[_ngcontent-ng-c2425689991] {
+      background-color: #2563eb;
+      border: none;
+      font-weight: 600
+    }
+
+    .newsletter[_ngcontent-ng-c2425689991] input[_ngcontent-ng-c2425689991] {
+      border-radius: 6px
+    }
+  </style>
+</head>
 
 <body><!--nghm-->
-  <app-root ng-version="20.1.7" ngh="0" ng-server-context="ssg"><app-top-nav _nghost-ng-c3886827313 ngh="0"><section _ngcontent-ng-c3886827313><div _ngcontent-ng-c3886827313 class="top-nav text-white d-flex justify-content-between align-items-center"><div _ngcontent-ng-c3886827313 class="left"><p _ngcontent-ng-c3886827313>Working Time: Mon - Thu 9:00 AM - 5:00 PM</p></div><div _ngcontent-ng-c3886827313 class="center d-flex"><div _ngcontent-ng-c3886827313 class="first"><img _ngcontent-ng-c3886827313 src="/icons/Email.svg" alt srcset><span _ngcontent-ng-c3886827313>info@template.com</span></div><div _ngcontent-ng-c3886827313 class="second"><img _ngcontent-ng-c3886827313 src="/icons/Phone.svg" alt srcset><span _ngcontent-ng-c3886827313>+ (100) 234-5678</span></div></div><div _ngcontent-ng-c3886827313 class="third"><ul _ngcontent-ng-c3886827313 class="list-unstyled d-flex"><li _ngcontent-ng-c3886827313><a _ngcontent-ng-c3886827313 href><i _ngcontent-ng-c3886827313 class="fa-brands fa-facebook-f"></i></a></li><li _ngcontent-ng-c3886827313><a _ngcontent-ng-c3886827313 href><i _ngcontent-ng-c3886827313 class="fa-brands fa-instagram"></i></a></li><li _ngcontent-ng-c3886827313><a _ngcontent-ng-c3886827313 href><i _ngcontent-ng-c3886827313 class="fa-brands fa-twitter"></i></a></li><li _ngcontent-ng-c3886827313><a _ngcontent-ng-c3886827313 href><i _ngcontent-ng-c3886827313 class="fa-brands fa-whatsapp"></i></a></li></ul></div></div></section></app-top-nav><app-nav _nghost-ng-c2498913595 ngh="0"><nav _ngcontent-ng-c2498913595 class="navbar navbar-expand-md bg-body-tertiary"><div _ngcontent-ng-c2498913595 class="container-fluid"><div _ngcontent-ng-c2498913595 class="nav-logo d-flex justify-content-between align-content-center"><img _ngcontent-ng-c2498913595 alt srcset src="/nav/Logo.svg"></div><button _ngcontent-ng-c2498913595 type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span _ngcontent-ng-c2498913595 class="navbar-toggler-icon"></span></button><div _ngcontent-ng-c2498913595 id="navbarSupportedContent" class="collapse navbar-collapse"><ul _ngcontent-ng-c2498913595 class="navbar-nav ms-auto"><li _ngcontent-ng-c2498913595 class="nav-item dropdown active"><a _ngcontent-ng-c2498913595 href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link"> Home <img _ngcontent-ng-c2498913595 src="/nav/Arrow Down.svg" alt srcset></a><ul _ngcontent-ng-c2498913595 class="dropdown-menu"><li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Action</a></li><li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Another action</a></li><li _ngcontent-ng-c2498913595><hr _ngcontent-ng-c2498913595 class="dropdown-divider"></li><li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Something else here</a></li></ul></li><li _ngcontent-ng-c2498913595 class="nav-item dropdown"><a _ngcontent-ng-c2498913595 href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link"> Blog <img _ngcontent-ng-c2498913595 src="/nav/Arrow Down.svg" alt srcset></a><ul _ngcontent-ng-c2498913595 class="dropdown-menu"><li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Action</a></li><li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Another action</a></li><li _ngcontent-ng-c2498913595><hr _ngcontent-ng-c2498913595 class="dropdown-divider"></li><li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Something else here</a></li></ul></li><li _ngcontent-ng-c2498913595 class="nav-item dropdown"><a _ngcontent-ng-c2498913595 href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link"> Pages <img _ngcontent-ng-c2498913595 src="/nav/Arrow Down.svg" alt srcset></a><ul _ngcontent-ng-c2498913595 class="dropdown-menu"><li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Action</a></li><li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Another action</a></li><li _ngcontent-ng-c2498913595><hr _ngcontent-ng-c2498913595 class="dropdown-divider"></li><li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Something else here</a></li></ul></li><li _ngcontent-ng-c2498913595 class="nav-item dropdown"><a _ngcontent-ng-c2498913595 href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link"> Contact Us <img _ngcontent-ng-c2498913595 src="/nav/Arrow Down.svg" alt srcset></a><ul _ngcontent-ng-c2498913595 class="dropdown-menu"><li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Action</a></li><li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Another action</a></li><li _ngcontent-ng-c2498913595><hr _ngcontent-ng-c2498913595 class="dropdown-divider"></li><li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Something else here</a></li></ul></li></ul><button _ngcontent-ng-c2498913595 type="button" class="btn">Schedule a Call</button></div></div></nav></app-nav><app-header _nghost-ng-c3057586004 ngh="0"><section _ngcontent-ng-c3057586004 class="h-100 w-100 px-5 d-flex justify-content-between align-items-center text-white"><div _ngcontent-ng-c3057586004 class="part-1 col-8"><h1 _ngcontent-ng-c3057586004>Plumbing Experts Right at Your Doorstep</h1><p _ngcontent-ng-c3057586004>Our plumbers are professionals globally because we’re committed to excellent service, and nothing wears on homeowners like the idea of handling plumbing problems.</p><div _ngcontent-ng-c3057586004 class="buttons"><button _ngcontent-ng-c3057586004 type="button" class="btn btn-primary">Request a Job Estimate</button><button _ngcontent-ng-c3057586004 type="button" class="btn btn-outline-info">Pricing Plans</button></div></div><div _ngcontent-ng-c3057586004 class="part-2 col-4 d-flex justify-content-end"><img _ngcontent-ng-c3057586004 alt class="img-man" src="/images-header/man.png"></div></section></app-header><app-title title="Services We Provide" description="The Best Plumbing Service &amp; Maintanence" _nghost-ng-c1016580246 ngh="0"><section _ngcontent-ng-c1016580246 class="text-center justify-content-center"><h5 _ngcontent-ng-c1016580246>Services We Provide <img _ngcontent-ng-c1016580246 alt srcset src="/title/Right Arrow.svg"></h5><h1 _ngcontent-ng-c1016580246>The Best Plumbing Service &amp; Maintanence</h1></section></app-title><app-services _nghost-ng-c2942923105 ngh="0"><section _ngcontent-ng-c2942923105 class="m-auto"><div _ngcontent-ng-c2942923105 class="row row-cols-1 row-cols-md-3"><div _ngcontent-ng-c2942923105 class="col"><div _ngcontent-ng-c2942923105 id="ACard" class="card rounded-2"><img _ngcontent-ng-c2942923105 alt="..." class="card-img-top" src="/services/img/image-1.jpg"><div _ngcontent-ng-c2942923105 class="card-body"><img _ngcontent-ng-c2942923105 alt srcset class="icon" src="/services/icons/icon-1.svg"><h4 _ngcontent-ng-c2942923105 class="card-title">Plumbing Installation</h4><p _ngcontent-ng-c2942923105 class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing quis ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.</p></div><p _ngcontent-ng-c2942923105 class="card-fotter">Learn More <img _ngcontent-ng-c2942923105 alt srcset class="icon" src="/services/icons/WhiteRight Arrow.svg"></p></div></div><div _ngcontent-ng-c2942923105 class="col"><div _ngcontent-ng-c2942923105 id="BCard" class="card rounded-2"><img _ngcontent-ng-c2942923105 alt="..." class="card-img-top" src="/services/img/image-2.jpg"><div _ngcontent-ng-c2942923105 class="card-body"><img _ngcontent-ng-c2942923105 alt srcset class="icon" src="/services/icons/icon-2.svg"><h4 _ngcontent-ng-c2942923105 class="card-title">General Plumbing</h4><p _ngcontent-ng-c2942923105 class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing quis ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.</p></div><p _ngcontent-ng-c2942923105 class="card-fotter">Learn More <img _ngcontent-ng-c2942923105 alt srcset class="icon" src="/services/icons/Right Arrow.svg"></p><img _ngcontent-ng-c2942923105 alt srcset src="/icons/LineUnder.svg"></div></div><div _ngcontent-ng-c2942923105 class="col"><div _ngcontent-ng-c2942923105 id="BCard" class="card rounded-2"><img _ngcontent-ng-c2942923105 alt="..." class="card-img-top" src="/services/img/image-3.jpg"><div _ngcontent-ng-c2942923105 class="card-body"><img _ngcontent-ng-c2942923105 alt srcset class="icon" src="/services/icons/icon-3.svg"><h4 _ngcontent-ng-c2942923105 class="card-title">Plumbing Maintanence </h4><p _ngcontent-ng-c2942923105 class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing quis ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.</p></div><p _ngcontent-ng-c2942923105 class="card-fotter">Learn More <img _ngcontent-ng-c2942923105 alt srcset class="icon" src="/services/icons/Right Arrow.svg"></p><img _ngcontent-ng-c2942923105 alt srcset src="/icons/LineUnder.svg"></div></div><div _ngcontent-ng-c2942923105 class="col"><div _ngcontent-ng-c2942923105 id="BCard" class="card rounded-2"><img _ngcontent-ng-c2942923105 alt="..." class="card-img-top" src="/services/img/image-4.jpg"><div _ngcontent-ng-c2942923105 class="card-body"><img _ngcontent-ng-c2942923105 alt srcset class="icon" src="/services/icons/icon-4.svg"><h4 _ngcontent-ng-c2942923105 class="card-title">Fixing Pipes</h4><p _ngcontent-ng-c2942923105 class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing quis ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.</p></div><p _ngcontent-ng-c2942923105 class="card-fotter">Learn More <img _ngcontent-ng-c2942923105 alt srcset class="icon" src="/services/icons/Right Arrow.svg"></p><img _ngcontent-ng-c2942923105 alt srcset src="/icons/LineUnder.svg"></div></div><div _ngcontent-ng-c2942923105 class="col"><div _ngcontent-ng-c2942923105 id="BCard" class="card rounded-2"><img _ngcontent-ng-c2942923105 alt="..." class="card-img-top" src="/services/img/image-5.jpg"><div _ngcontent-ng-c2942923105 class="card-body"><img _ngcontent-ng-c2942923105 alt srcset class="icon" src="/services/icons/icon-5.svg"><h4 _ngcontent-ng-c2942923105 class="card-title">Plumbing Line Consultation</h4><p _ngcontent-ng-c2942923105 class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing quis ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.</p></div><p _ngcontent-ng-c2942923105 class="card-fotter">Learn More <img _ngcontent-ng-c2942923105 alt srcset class="icon" src="/services/icons/Right Arrow.svg"></p><img _ngcontent-ng-c2942923105 alt srcset src="/icons/LineUnder.svg"></div></div><div _ngcontent-ng-c2942923105 class="col"><div _ngcontent-ng-c2942923105 id="BCard" class="card rounded-2"><img _ngcontent-ng-c2942923105 alt="..." class="card-img-top" src="/services/img/image-6.jpg"><div _ngcontent-ng-c2942923105 class="card-body"><img _ngcontent-ng-c2942923105 alt srcset class="icon" src="/services/icons/icon-6.svg"><h4 _ngcontent-ng-c2942923105 class="card-title">Drain Cleaning</h4><p _ngcontent-ng-c2942923105 class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing quis ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.</p></div><p _ngcontent-ng-c2942923105 class="card-fotter">Learn More <img _ngcontent-ng-c2942923105 alt srcset class="icon" src="/services/icons/Right Arrow.svg"></p><img _ngcontent-ng-c2942923105 alt srcset src="/icons/LineUnder.svg"></div></div></div></section></app-services><app-services-footer _nghost-ng-c2418115144 ngh="0"><section _ngcontent-ng-c2418115144 class="d-flex"><div _ngcontent-ng-c2418115144 class="part-1 col-4 gap-0"><div _ngcontent-ng-c2418115144 class="image-container"><img _ngcontent-ng-c2418115144 alt width="40px" height="40px" src="/services/img/image-under-services.jpg"></div></div><div _ngcontent-ng-c2418115144 class="part-2 col-8"><h1 _ngcontent-ng-c2418115144>Taking regular plumbing care will save you time and money</h1><p _ngcontent-ng-c2418115144>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p><ul _ngcontent-ng-c2418115144><li _ngcontent-ng-c2418115144 class="d-flex"><img _ngcontent-ng-c2418115144 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c2418115144 href>Praesent Sodales Orci</a></li><li _ngcontent-ng-c2418115144 class="d-flex"><img _ngcontent-ng-c2418115144 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c2418115144 href>Curabitur Dignissim</a></li><li _ngcontent-ng-c2418115144 class="d-flex"><img _ngcontent-ng-c2418115144 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c2418115144 href>Nulla Condimentum</a></li></ul><button _ngcontent-ng-c2418115144>More About Us <img _ngcontent-ng-c2418115144 alt srcset src="/services/icons/Arrow-Up-Right.svg"></button></div></section></app-services-footer><app-bg-title title="Pricing Plans" description="Affordable Pricing Plans" class="bg-danger" _nghost-ng-c3277765958 ngh="0"><section _ngcontent-ng-c3277765958 class="text-center justify-content-center"><h5 _ngcontent-ng-c3277765958>Pricing Plans <img _ngcontent-ng-c3277765958 alt srcset src="/title/Right Arrow.svg"></h5><h1 _ngcontent-ng-c3277765958>Affordable Pricing Plans</h1></section></app-bg-title><app-price-plans _nghost-ng-c1727487178 ngh="0"><section _ngcontent-ng-c1727487178><div _ngcontent-ng-c1727487178 class="row row-cols-1 row-cols-md-3 g-3"><div _ngcontent-ng-c1727487178 class="col"><div _ngcontent-ng-c1727487178 class="card"><div _ngcontent-ng-c1727487178 class="card-body"><h4 _ngcontent-ng-c1727487178>Residential Plumbing</h4><h1 _ngcontent-ng-c1727487178>$199<span _ngcontent-ng-c1727487178>/Month</span></h1><ul _ngcontent-ng-c1727487178><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li></ul><button _ngcontent-ng-c1727487178 id="b13" class="rounded-2">Get Started</button></div></div></div><div _ngcontent-ng-c1727487178 class="col"><div _ngcontent-ng-c1727487178 class="card"><div _ngcontent-ng-c1727487178 class="card-body"><h4 _ngcontent-ng-c1727487178>Commercial Plumbing</h4><h1 _ngcontent-ng-c1727487178>$499<span _ngcontent-ng-c1727487178>/Month</span></h1><ul _ngcontent-ng-c1727487178><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li></ul><button _ngcontent-ng-c1727487178 id="b2" class="rounded-2">Get Started</button><img _ngcontent-ng-c1727487178 alt class="img-footer" src="/icons/LineUnder.svg"></div></div></div><div _ngcontent-ng-c1727487178 class="col"><div _ngcontent-ng-c1727487178 class="card"><div _ngcontent-ng-c1727487178 class="card-body"><h4 _ngcontent-ng-c1727487178>Service &amp; Repair</h4><h1 _ngcontent-ng-c1727487178>$399<span _ngcontent-ng-c1727487178>/Month</span></h1><ul _ngcontent-ng-c1727487178><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li><li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a></li></ul><button _ngcontent-ng-c1727487178 id="b13" class="rounded-2">Get Started</button></div></div></div></div></section></app-price-plans><app-title title="Featured Projects" description="Our Recent Works" _nghost-ng-c1016580246 ngh="0"><section _ngcontent-ng-c1016580246 class="text-center justify-content-center"><h5 _ngcontent-ng-c1016580246>Featured Projects <img _ngcontent-ng-c1016580246 alt srcset src="/title/Right Arrow.svg"></h5><h1 _ngcontent-ng-c1016580246>Our Recent Works</h1></section></app-title><app-recent-works _nghost-ng-c2041863817 ngh="0"><section _ngcontent-ng-c2041863817><ul _ngcontent-ng-c2041863817><li _ngcontent-ng-c2041863817><h4 _ngcontent-ng-c2041863817><a _ngcontent-ng-c2041863817 href>All Projects</a></h4></li><li _ngcontent-ng-c2041863817><h4 _ngcontent-ng-c2041863817><a _ngcontent-ng-c2041863817 href>Commercial Services</a></h4></li><li _ngcontent-ng-c2041863817><h4 _ngcontent-ng-c2041863817><a _ngcontent-ng-c2041863817 href>Residential Services</a></h4></li><li _ngcontent-ng-c2041863817><h4 _ngcontent-ng-c2041863817><a _ngcontent-ng-c2041863817 href>Emergency Services</a></h4></li></ul><div _ngcontent-ng-c2041863817 class="cards"><div _ngcontent-ng-c2041863817 class="row row-cols-1 row-cols-md-3 g-2"><div _ngcontent-ng-c2041863817 class="col"><div _ngcontent-ng-c2041863817 class="card"><img _ngcontent-ng-c2041863817 alt="..." class="card-img-top" src="/works&amp;blocks/1.jpg"></div></div><div _ngcontent-ng-c2041863817 class="col"><div _ngcontent-ng-c2041863817 class="card"><img _ngcontent-ng-c2041863817 alt="..." class="card-img-top" src="/works&amp;blocks/2.jpg"></div></div><div _ngcontent-ng-c2041863817 class="col"><div _ngcontent-ng-c2041863817 class="card"><img _ngcontent-ng-c2041863817 alt="..." class="card-img-top" src="/works&amp;blocks/3.jpg"></div></div><div _ngcontent-ng-c2041863817 class="col"><div _ngcontent-ng-c2041863817 class="card"><img _ngcontent-ng-c2041863817 alt="..." class="card-img-top" src="/works&amp;blocks/4.jpg"></div></div><div _ngcontent-ng-c2041863817 class="col"><div _ngcontent-ng-c2041863817 class="card"><img _ngcontent-ng-c2041863817 alt="..." class="card-img-top" src="/works&amp;blocks/5.jpg"></div></div><div _ngcontent-ng-c2041863817 class="col"><div _ngcontent-ng-c2041863817 class="card"><img _ngcontent-ng-c2041863817 alt="..." class="card-img-top" src="/works&amp;blocks/6.jpg"></div></div></div></div></section></app-recent-works><app-provide-excellent-services _nghost-ng-c3822401197 ngh="0"><section _ngcontent-ng-c3822401197><div _ngcontent-ng-c3822401197 class="container"><h2 _ngcontent-ng-c3822401197 class="title">Providing excellent services for the last 25 years</h2><div _ngcontent-ng-c3822401197 class="row row-cols-md-4 g-5"><div _ngcontent-ng-c3822401197 class="provider"><div _ngcontent-ng-c3822401197 class="providing d-flex justify-content-center"><div _ngcontent-ng-c3822401197 class="left"><img _ngcontent-ng-c3822401197 alt srcset class="icon" src="/providing-excellent-services/1.svg"></div><div _ngcontent-ng-c3822401197 class="right"><h2 _ngcontent-ng-c3822401197 class="hprovider">1200<span _ngcontent-ng-c3822401197>+</span></h2><p _ngcontent-ng-c3822401197> Customers</p></div></div><div _ngcontent-ng-c3822401197 class="providing d-flex"><div _ngcontent-ng-c3822401197 class="left"><img _ngcontent-ng-c3822401197 alt srcset class="icon" src="/providing-excellent-services/2.svg"></div><div _ngcontent-ng-c3822401197 class="right"><h2 _ngcontent-ng-c3822401197 class="hprovider">8,714<span _ngcontent-ng-c3822401197>+</span></h2><p _ngcontent-ng-c3822401197>Installed Units</p></div></div><div _ngcontent-ng-c3822401197 class="providing d-flex"><div _ngcontent-ng-c3822401197 class="left"><img _ngcontent-ng-c3822401197 alt srcset class="icon" src="/providing-excellent-services/3.svg"></div><div _ngcontent-ng-c3822401197 class="right"><h2 _ngcontent-ng-c3822401197 class="hprovider">1600<span _ngcontent-ng-c3822401197>+</span></h2><p _ngcontent-ng-c3822401197>Home Served</p></div></div><div _ngcontent-ng-c3822401197 class="providing d-flex"><div _ngcontent-ng-c3822401197 class="left"><img _ngcontent-ng-c3822401197 alt srcset class="icon" src="/providing-excellent-services/4.svg"></div><div _ngcontent-ng-c3822401197 class="right"><h2 _ngcontent-ng-c3822401197 class="hprovider">500<span _ngcontent-ng-c3822401197>+</span></h2><p _ngcontent-ng-c3822401197>Professional</p></div></div></div></div></div></section></app-provide-excellent-services><app-title title="Customer Testimonial" description="Our Partner &amp; Customer" _nghost-ng-c1016580246 ngh="0"><section _ngcontent-ng-c1016580246 class="text-center justify-content-center"><h5 _ngcontent-ng-c1016580246>Customer Testimonial <img _ngcontent-ng-c1016580246 alt srcset src="/title/Right Arrow.svg"></h5><h1 _ngcontent-ng-c1016580246>Our Partner &amp; Customer</h1></section></app-title><app-customers _nghost-ng-c2978113021 ngh="0"><section _ngcontent-ng-c2978113021><div _ngcontent-ng-c2978113021 class="container"><div _ngcontent-ng-c2978113021 class="row row-cols-md-3 g-1"><div _ngcontent-ng-c2978113021 class="review"><div _ngcontent-ng-c2978113021 class="boody"><div _ngcontent-ng-c2978113021 class="head d-flex justify-content-evenly"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"></div><p _ngcontent-ng-c2978113021 class="pbody">Lorem ipsum dolor sit amet consectetur. Pretium malesuada pulvinar sed feugiat sem est nisl pharetra. Facilisis ridiculus amet commodo aliquet a phasellus malesuada. Ac id quam mattis neque. Urna tellus ut maecenas interdum. Euismod egestas scelerisque.</p><div _ngcontent-ng-c2978113021 class="bottom d-flex"><div _ngcontent-ng-c2978113021 class="left"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/image1.svg"></div><div _ngcontent-ng-c2978113021 class="right"><h4 _ngcontent-ng-c2978113021>Wade Warren</h4><p _ngcontent-ng-c2978113021 class="pbottom">Marketing Coordinator</p></div></div></div></div><div _ngcontent-ng-c2978113021 class="review"><div _ngcontent-ng-c2978113021 class="boody"><div _ngcontent-ng-c2978113021 class="head d-flex justify-content-evenly"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"></div><p _ngcontent-ng-c2978113021 class="pbody">Lorem ipsum dolor sit amet consectetur. Pretium malesuada pulvinar sed feugiat sem est nisl pharetra. Facilisis ridiculus amet commodo aliquet a phasellus malesuada. Ac id quam mattis neque. Urna tellus ut maecenas interdum. Euismod egestas scelerisque.</p><div _ngcontent-ng-c2978113021 class="bottom d-flex"><div _ngcontent-ng-c2978113021 class="left"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/image2.svg"></div><div _ngcontent-ng-c2978113021 class="right"><h4 _ngcontent-ng-c2978113021>Wade Warren</h4><p _ngcontent-ng-c2978113021 class="pbottom">Marketing Coordinator</p></div></div></div></div><div _ngcontent-ng-c2978113021 class="review"><div _ngcontent-ng-c2978113021 class="boody"><div _ngcontent-ng-c2978113021 class="head d-flex justify-content-evenly"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"></div><p _ngcontent-ng-c2978113021 class="pbody">Lorem ipsum dolor sit amet consectetur. Pretium malesuada pulvinar sed feugiat sem est nisl pharetra. Facilisis ridiculus amet commodo aliquet a phasellus malesuada. Ac id quam mattis neque. Urna tellus ut maecenas interdum. Euismod egestas scelerisque.</p><div _ngcontent-ng-c2978113021 class="bottom d-flex"><div _ngcontent-ng-c2978113021 class="left"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/image3.svg"></div><div _ngcontent-ng-c2978113021 class="right"><h4 _ngcontent-ng-c2978113021>Wade Warren</h4><p _ngcontent-ng-c2978113021 class="pbottom">Marketing Coordinator</p></div></div></div></div></div></div></section></app-customers><app-title-two titletwo="Worked With" descriptiontwo="Our Partners" _nghost-ng-c1149769737 ngh="0"><section _ngcontent-ng-c1149769737><h5 _ngcontent-ng-c1149769737>Worked With <img _ngcontent-ng-c1149769737 alt srcset src="/title/Right Arrow.svg"></h5><h1 _ngcontent-ng-c1149769737>Our Partners</h1></section></app-title-two><app-partaners _nghost-ng-c1812511714 ngh="0"><section _ngcontent-ng-c1812511714><div _ngcontent-ng-c1812511714 class="container"><div _ngcontent-ng-c1812511714 class="row row-cols-md-4 justify-content-between"><img _ngcontent-ng-c1812511714 alt srcset src="/partners/logo-1.svg"><img _ngcontent-ng-c1812511714 alt srcset src="/partners/logo-2.svg"><img _ngcontent-ng-c1812511714 alt srcset src="/partners/logo-3.svg"><img _ngcontent-ng-c1812511714 alt srcset src="/partners/logo-4.svg"><img _ngcontent-ng-c1812511714 alt srcset src="/partners/logo-5.svg"><img _ngcontent-ng-c1812511714 alt srcset src="/partners/logo-6.svg"><img _ngcontent-ng-c1812511714 alt srcset src="/partners/logo-7.svg"><img _ngcontent-ng-c1812511714 alt srcset src="/partners/logo-8.svg"></div></div></section></app-partaners><app-title-two titletwo="Our Blogs" descriptiontwo="Emergency Tips &amp; Tricks" _nghost-ng-c1149769737 ngh="0"><section _ngcontent-ng-c1149769737><h5 _ngcontent-ng-c1149769737>Our Blogs <img _ngcontent-ng-c1149769737 alt srcset src="/title/Right Arrow.svg"></h5><h1 _ngcontent-ng-c1149769737>Emergency Tips &amp; Tricks</h1></section></app-title-two><app-blogs _nghost-ng-c1362999061 ngh="0"><section _ngcontent-ng-c1362999061><div _ngcontent-ng-c1362999061 class="container"><p _ngcontent-ng-c1362999061 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper placerat metus.</p></div><div _ngcontent-ng-c1362999061 class="blogs row row-cols-md-2 g-2"><div _ngcontent-ng-c1362999061 class="blog d-flex"><div _ngcontent-ng-c1362999061 class="left"><img _ngcontent-ng-c1362999061 alt srcset src="/works&amp;blocks/1.jpg"></div><div _ngcontent-ng-c1362999061 class="right"><h4 _ngcontent-ng-c1362999061>The Do’s and Don’ts of Fixing a Blocked Drain</h4><div _ngcontent-ng-c1362999061 class="calender d-flex"><img _ngcontent-ng-c1362999061 alt srcset src="/works&amp;blocks/Calendar.svg"><span _ngcontent-ng-c1362999061 class="calender-p">January 4, 2022</span></div><p _ngcontent-ng-c1362999061 class="decription">The Do’s and Don’ts of Fixing a Blocked Drain Lorem ipsum dolor sit amet consectetur</p><p _ngcontent-ng-c1362999061 class="fotter-p">Read More <span _ngcontent-ng-c1362999061><img _ngcontent-ng-c1362999061 alt srcset src="/works&amp;blocks/Arrow-Up-Right.svg "></span></p></div></div><div _ngcontent-ng-c1362999061 class="blog d-flex"><div _ngcontent-ng-c1362999061 class="left"><img _ngcontent-ng-c1362999061 alt srcset src="/works&amp;blocks/2.jpg"></div><div _ngcontent-ng-c1362999061 class="right"><h4 _ngcontent-ng-c1362999061>The Do’s and Don’ts of Fixing a Blocked Drain</h4><div _ngcontent-ng-c1362999061 class="calender d-flex"><img _ngcontent-ng-c1362999061 alt srcset src="/works&amp;blocks/Calendar.svg"><span _ngcontent-ng-c1362999061 class="calender-p">January 4, 2022</span></div><p _ngcontent-ng-c1362999061 class="decription">The Do’s and Don’ts of Fixing a Blocked Drain Lorem ipsum dolor sit amet consectetur</p><p _ngcontent-ng-c1362999061 class="fotter-p">Read More <span _ngcontent-ng-c1362999061><img _ngcontent-ng-c1362999061 alt srcset src="/works&amp;blocks/Arrow-Up-Right.svg "></span></p></div></div><div _ngcontent-ng-c1362999061 class="blog d-flex position-relative"><div _ngcontent-ng-c1362999061 class="left"><img _ngcontent-ng-c1362999061 alt srcset src="/works&amp;blocks/3.jpg"></div><div _ngcontent-ng-c1362999061 class="right"><h4 _ngcontent-ng-c1362999061>The Do’s and Don’ts of Fixing a Blocked Drain</h4><div _ngcontent-ng-c1362999061 class="calender d-flex"><img _ngcontent-ng-c1362999061 alt srcset src="/works&amp;blocks/Calendar.svg"><span _ngcontent-ng-c1362999061 class="calender-p">January 4, 2022</span></div><p _ngcontent-ng-c1362999061 class="decription">The Do’s and Don’ts of Fixing a Blocked Drain Lorem ipsum dolor sit amet consectetur</p><p _ngcontent-ng-c1362999061 class="fotter-p">Read More <span _ngcontent-ng-c1362999061><img _ngcontent-ng-c1362999061 alt srcset src="/works&amp;blocks/Arrow-Up-Right.svg "></span></p></div></div><div _ngcontent-ng-c1362999061 class="blog d-flex"><div _ngcontent-ng-c1362999061 class="left"><img _ngcontent-ng-c1362999061 alt srcset src="/works&amp;blocks/4.jpg"></div><div _ngcontent-ng-c1362999061 class="right"><h4 _ngcontent-ng-c1362999061>The Do’s and Don’ts of Fixing a Blocked Drain</h4><div _ngcontent-ng-c1362999061 class="calender d-flex"><img _ngcontent-ng-c1362999061 alt srcset src="/works&amp;blocks/Calendar.svg"><span _ngcontent-ng-c1362999061 class="calender-p">January 4, 2022</span></div><p _ngcontent-ng-c1362999061 class="decription">The Do’s and Don’ts of Fixing a Blocked Drain Lorem ipsum dolor sit amet consectetur</p><p _ngcontent-ng-c1362999061 class="fotter-p">Read More <span _ngcontent-ng-c1362999061><img _ngcontent-ng-c1362999061 alt srcset src="/works&amp;blocks/Arrow-Up-Right.svg "></span></p></div></div></div><button _ngcontent-ng-c1362999061> see More <span _ngcontent-ng-c1362999061><img _ngcontent-ng-c1362999061 alt srcset src="/services/icons/WhiteRight Arrow.svg"></span></button></section></app-blogs><app-footer _nghost-ng-c2425689991 ngh="0"><section _ngcontent-ng-c2425689991 class="footer text-light"><div _ngcontent-ng-c2425689991 class="d-flex justify-content-between align-items-center mb-4 flex-wrap"><h2 _ngcontent-ng-c2425689991 class="fw-bold">Contact us to get a quotation.</h2><button _ngcontent-ng-c2425689991 class="btn btn-danger">Contact Us</button></div><hr _ngcontent-ng-c2425689991 class="border-secondary"><div _ngcontent-ng-c2425689991 class="row mt-4"><div _ngcontent-ng-c2425689991 class="col-md-3 mb-4"><h5 _ngcontent-ng-c2425689991>Contact</h5><p _ngcontent-ng-c2425689991><i _ngcontent-ng-c2425689991 class="fa-solid fa-location-dot me-2"></i>3249 Henery Street, Kansas 67204</p><p _ngcontent-ng-c2425689991><i _ngcontent-ng-c2425689991 class="fa-solid fa-envelope me-2"></i>info@template.com</p><p _ngcontent-ng-c2425689991><i _ngcontent-ng-c2425689991 class="fa-solid fa-phone me-2"></i>+ (100) 234-5678</p><p _ngcontent-ng-c2425689991 class="fw-bold">Emergency 24/7 Service</p><p _ngcontent-ng-c2425689991 class="fw-bold text-danger"><i _ngcontent-ng-c2425689991 class="fa-solid fa-phone-volume me-2"></i>+1-800-777-584</p></div><div _ngcontent-ng-c2425689991 class="col-md-2 mb-4"><h5 _ngcontent-ng-c2425689991>Navigation</h5><p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Home</a></p><p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Service</a></p><p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Blog</a></p><p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Our Teams</a></p><p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Contact Us</a></p></div><div _ngcontent-ng-c2425689991 class="col-md-2 mb-4"><h5 _ngcontent-ng-c2425689991>Template</h5><p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">404</a></p><p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Login</a></p><p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Licenses</a></p><p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Styleguide</a></p><p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Changelog</a></p></div><div _ngcontent-ng-c2425689991 class="col-md-5 mb-4 newsletter"><h5 _ngcontent-ng-c2425689991>Newsletter</h5><p _ngcontent-ng-c2425689991>Get the latest tips and tricks, updates, offers and discount right into your mailbox.</p><form _ngcontent-ng-c2425689991 class="d-flex flex-column gap-2"><input _ngcontent-ng-c2425689991 type="email" placeholder="Your Email" class="form-control"><button _ngcontent-ng-c2425689991 class="btn btn-primary">Subscribe Now</button></form></div></div><div _ngcontent-ng-c2425689991 class="social-icons mt-4"><a _ngcontent-ng-c2425689991 href="#"><i _ngcontent-ng-c2425689991 class="fab fa-facebook-f"></i></a><a _ngcontent-ng-c2425689991 href="#"><i _ngcontent-ng-c2425689991 class="fab fa-twitter"></i></a><a _ngcontent-ng-c2425689991 href="#"><i _ngcontent-ng-c2425689991 class="fab fa-instagram"></i></a><a _ngcontent-ng-c2425689991 href="#"><i _ngcontent-ng-c2425689991 class="fab fa-whatsapp"></i></a></div><div _ngcontent-ng-c2425689991 class="footer-bottom d-flex justify-content-between flex-wrap mt-4"><p _ngcontent-ng-c2425689991>© Copyright 2025 by Housefix. Designed &amp; Developed by Hexwaave. Powered by Webflow</p><p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Privacy &amp; Policy</a> | <a _ngcontent-ng-c2425689991 href="#">Terms &amp; Conditions</a></p></div></section></app-footer></app-root>
+  <app-root ng-version="20.1.7" ngh="0" ng-server-context="ssg"><app-top-nav _nghost-ng-c3886827313 ngh="0">
+      <section _ngcontent-ng-c3886827313>
+        <div _ngcontent-ng-c3886827313 class="top-nav text-white d-flex justify-content-between align-items-center">
+          <div _ngcontent-ng-c3886827313 class="left">
+            <p _ngcontent-ng-c3886827313>Working Time: Mon - Thu 9:00 AM - 5:00 PM</p>
+          </div>
+          <div _ngcontent-ng-c3886827313 class="center d-flex">
+            <div _ngcontent-ng-c3886827313 class="first"><img _ngcontent-ng-c3886827313 src="/icons/Email.svg" alt
+                srcset><span _ngcontent-ng-c3886827313>info@template.com</span></div>
+            <div _ngcontent-ng-c3886827313 class="second"><img _ngcontent-ng-c3886827313 src="/icons/Phone.svg" alt
+                srcset><span _ngcontent-ng-c3886827313>+ (100) 234-5678</span></div>
+          </div>
+          <div _ngcontent-ng-c3886827313 class="third">
+            <ul _ngcontent-ng-c3886827313 class="list-unstyled d-flex">
+              <li _ngcontent-ng-c3886827313><a _ngcontent-ng-c3886827313 href><i _ngcontent-ng-c3886827313
+                    class="fa-brands fa-facebook-f"></i></a></li>
+              <li _ngcontent-ng-c3886827313><a _ngcontent-ng-c3886827313 href><i _ngcontent-ng-c3886827313
+                    class="fa-brands fa-instagram"></i></a></li>
+              <li _ngcontent-ng-c3886827313><a _ngcontent-ng-c3886827313 href><i _ngcontent-ng-c3886827313
+                    class="fa-brands fa-twitter"></i></a></li>
+              <li _ngcontent-ng-c3886827313><a _ngcontent-ng-c3886827313 href><i _ngcontent-ng-c3886827313
+                    class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </app-top-nav><app-nav _nghost-ng-c2498913595 ngh="0">
+      <nav _ngcontent-ng-c2498913595 class="navbar navbar-expand-md bg-body-tertiary">
+        <div _ngcontent-ng-c2498913595 class="container-fluid">
+          <div _ngcontent-ng-c2498913595 class="nav-logo d-flex justify-content-between align-content-center"><img
+              _ngcontent-ng-c2498913595 alt srcset src="/nav/Logo.svg"></div><button _ngcontent-ng-c2498913595
+            type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            class="navbar-toggler"><span _ngcontent-ng-c2498913595 class="navbar-toggler-icon"></span></button>
+          <div _ngcontent-ng-c2498913595 id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul _ngcontent-ng-c2498913595 class="navbar-nav ms-auto">
+              <li _ngcontent-ng-c2498913595 class="nav-item dropdown active"><a _ngcontent-ng-c2498913595 href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link"> Home <img
+                    _ngcontent-ng-c2498913595 src="/nav/Arrow Down.svg" alt srcset></a>
+                <ul _ngcontent-ng-c2498913595 class="dropdown-menu">
+                  <li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Action</a>
+                  </li>
+                  <li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Another
+                      action</a></li>
+                  <li _ngcontent-ng-c2498913595>
+                    <hr _ngcontent-ng-c2498913595 class="dropdown-divider">
+                  </li>
+                  <li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Something
+                      else here</a></li>
+                </ul>
+              </li>
+              <li _ngcontent-ng-c2498913595 class="nav-item dropdown"><a _ngcontent-ng-c2498913595 href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link"> Blog <img
+                    _ngcontent-ng-c2498913595 src="/nav/Arrow Down.svg" alt srcset></a>
+                <ul _ngcontent-ng-c2498913595 class="dropdown-menu">
+                  <li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Action</a>
+                  </li>
+                  <li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Another
+                      action</a></li>
+                  <li _ngcontent-ng-c2498913595>
+                    <hr _ngcontent-ng-c2498913595 class="dropdown-divider">
+                  </li>
+                  <li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Something
+                      else here</a></li>
+                </ul>
+              </li>
+              <li _ngcontent-ng-c2498913595 class="nav-item dropdown"><a _ngcontent-ng-c2498913595 href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link"> Pages <img
+                    _ngcontent-ng-c2498913595 src="/nav/Arrow Down.svg" alt srcset></a>
+                <ul _ngcontent-ng-c2498913595 class="dropdown-menu">
+                  <li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Action</a>
+                  </li>
+                  <li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Another
+                      action</a></li>
+                  <li _ngcontent-ng-c2498913595>
+                    <hr _ngcontent-ng-c2498913595 class="dropdown-divider">
+                  </li>
+                  <li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Something
+                      else here</a></li>
+                </ul>
+              </li>
+              <li _ngcontent-ng-c2498913595 class="nav-item dropdown"><a _ngcontent-ng-c2498913595 href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link"> Contact Us <img
+                    _ngcontent-ng-c2498913595 src="/nav/Arrow Down.svg" alt srcset></a>
+                <ul _ngcontent-ng-c2498913595 class="dropdown-menu">
+                  <li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Action</a>
+                  </li>
+                  <li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Another
+                      action</a></li>
+                  <li _ngcontent-ng-c2498913595>
+                    <hr _ngcontent-ng-c2498913595 class="dropdown-divider">
+                  </li>
+                  <li _ngcontent-ng-c2498913595><a _ngcontent-ng-c2498913595 href="#" class="dropdown-item">Something
+                      else here</a></li>
+                </ul>
+              </li>
+            </ul><button _ngcontent-ng-c2498913595 type="button" class="btn">Schedule a Call</button>
+          </div>
+        </div>
+      </nav>
+    </app-nav><app-header _nghost-ng-c3057586004 ngh="0">
+      <section _ngcontent-ng-c3057586004
+        class="h-100 w-100 px-5 d-flex justify-content-between align-items-center text-white">
+        <div _ngcontent-ng-c3057586004 class="part-1 col-8">
+          <h1 _ngcontent-ng-c3057586004>Plumbing Experts Right at Your Doorstep</h1>
+          <p _ngcontent-ng-c3057586004>Our plumbers are professionals globally because we’re committed to excellent
+            service, and nothing wears on homeowners like the idea of handling plumbing problems.</p>
+          <div _ngcontent-ng-c3057586004 class="buttons"><button _ngcontent-ng-c3057586004 type="button"
+              class="btn btn-primary">Request a Job Estimate</button><button _ngcontent-ng-c3057586004 type="button"
+              class="btn btn-outline-info">Pricing Plans</button></div>
+        </div>
+        <div _ngcontent-ng-c3057586004 class="part-2 col-4 d-flex justify-content-end"><img _ngcontent-ng-c3057586004
+            alt class="img-man" src="/images-header/man.png"></div>
+      </section>
+    </app-header><app-title title="Services We Provide" description="The Best Plumbing Service &amp; Maintanence"
+      _nghost-ng-c1016580246 ngh="0">
+      <section _ngcontent-ng-c1016580246 class="text-center justify-content-center">
+        <h5 _ngcontent-ng-c1016580246>Services We Provide <img _ngcontent-ng-c1016580246 alt srcset
+            src="/title/Right Arrow.svg"></h5>
+        <h1 _ngcontent-ng-c1016580246>The Best Plumbing Service &amp; Maintanence</h1>
+      </section>
+    </app-title><app-services _nghost-ng-c2942923105 ngh="0">
+      <section _ngcontent-ng-c2942923105 class="m-auto">
+        <div _ngcontent-ng-c2942923105 class="row row-cols-1 row-cols-md-3">
+          <div _ngcontent-ng-c2942923105 class="col">
+            <div _ngcontent-ng-c2942923105 id="ACard" class="card rounded-2"><img _ngcontent-ng-c2942923105 alt="..."
+                class="card-img-top" src="/services/img/image-1.jpg">
+              <div _ngcontent-ng-c2942923105 class="card-body"><img _ngcontent-ng-c2942923105 alt srcset class="icon"
+                  src="/services/icons/icon-1.svg">
+                <h4 _ngcontent-ng-c2942923105 class="card-title">Plumbing Installation</h4>
+                <p _ngcontent-ng-c2942923105 class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing quis
+                  ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.</p>
+              </div>
+              <p _ngcontent-ng-c2942923105 class="card-fotter">Learn More <img _ngcontent-ng-c2942923105 alt srcset
+                  class="icon" src="/services/icons/WhiteRight Arrow.svg"></p>
+            </div>
+          </div>
+          <div _ngcontent-ng-c2942923105 class="col">
+            <div _ngcontent-ng-c2942923105 id="BCard" class="card rounded-2"><img _ngcontent-ng-c2942923105 alt="..."
+                class="card-img-top" src="/services/img/image-2.jpg">
+              <div _ngcontent-ng-c2942923105 class="card-body"><img _ngcontent-ng-c2942923105 alt srcset class="icon"
+                  src="/services/icons/icon-2.svg">
+                <h4 _ngcontent-ng-c2942923105 class="card-title">General Plumbing</h4>
+                <p _ngcontent-ng-c2942923105 class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing quis
+                  ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.</p>
+              </div>
+              <p _ngcontent-ng-c2942923105 class="card-fotter">Learn More <img _ngcontent-ng-c2942923105 alt srcset
+                  class="icon" src="/services/icons/Right Arrow.svg"></p><img _ngcontent-ng-c2942923105 alt srcset
+                src="/icons/LineUnder.svg">
+            </div>
+          </div>
+          <div _ngcontent-ng-c2942923105 class="col">
+            <div _ngcontent-ng-c2942923105 id="BCard" class="card rounded-2"><img _ngcontent-ng-c2942923105 alt="..."
+                class="card-img-top" src="/services/img/image-3.jpg">
+              <div _ngcontent-ng-c2942923105 class="card-body"><img _ngcontent-ng-c2942923105 alt srcset class="icon"
+                  src="/services/icons/icon-3.svg">
+                <h4 _ngcontent-ng-c2942923105 class="card-title">Plumbing Maintanence </h4>
+                <p _ngcontent-ng-c2942923105 class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing quis
+                  ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.</p>
+              </div>
+              <p _ngcontent-ng-c2942923105 class="card-fotter">Learn More <img _ngcontent-ng-c2942923105 alt srcset
+                  class="icon" src="/services/icons/Right Arrow.svg"></p><img _ngcontent-ng-c2942923105 alt srcset
+                src="/icons/LineUnder.svg">
+            </div>
+          </div>
+          <div _ngcontent-ng-c2942923105 class="col">
+            <div _ngcontent-ng-c2942923105 id="BCard" class="card rounded-2"><img _ngcontent-ng-c2942923105 alt="..."
+                class="card-img-top" src="/services/img/image-4.jpg">
+              <div _ngcontent-ng-c2942923105 class="card-body"><img _ngcontent-ng-c2942923105 alt srcset class="icon"
+                  src="/services/icons/icon-4.svg">
+                <h4 _ngcontent-ng-c2942923105 class="card-title">Fixing Pipes</h4>
+                <p _ngcontent-ng-c2942923105 class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing quis
+                  ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.</p>
+              </div>
+              <p _ngcontent-ng-c2942923105 class="card-fotter">Learn More <img _ngcontent-ng-c2942923105 alt srcset
+                  class="icon" src="/services/icons/Right Arrow.svg"></p><img _ngcontent-ng-c2942923105 alt srcset
+                src="/icons/LineUnder.svg">
+            </div>
+          </div>
+          <div _ngcontent-ng-c2942923105 class="col">
+            <div _ngcontent-ng-c2942923105 id="BCard" class="card rounded-2"><img _ngcontent-ng-c2942923105 alt="..."
+                class="card-img-top" src="/services/img/image-5.jpg">
+              <div _ngcontent-ng-c2942923105 class="card-body"><img _ngcontent-ng-c2942923105 alt srcset class="icon"
+                  src="/services/icons/icon-5.svg">
+                <h4 _ngcontent-ng-c2942923105 class="card-title">Plumbing Line Consultation</h4>
+                <p _ngcontent-ng-c2942923105 class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing quis
+                  ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.</p>
+              </div>
+              <p _ngcontent-ng-c2942923105 class="card-fotter">Learn More <img _ngcontent-ng-c2942923105 alt srcset
+                  class="icon" src="/services/icons/Right Arrow.svg"></p><img _ngcontent-ng-c2942923105 alt srcset
+                src="/icons/LineUnder.svg">
+            </div>
+          </div>
+          <div _ngcontent-ng-c2942923105 class="col">
+            <div _ngcontent-ng-c2942923105 id="BCard" class="card rounded-2"><img _ngcontent-ng-c2942923105 alt="..."
+                class="card-img-top" src="/services/img/image-6.jpg">
+              <div _ngcontent-ng-c2942923105 class="card-body"><img _ngcontent-ng-c2942923105 alt srcset class="icon"
+                  src="/services/icons/icon-6.svg">
+                <h4 _ngcontent-ng-c2942923105 class="card-title">Drain Cleaning</h4>
+                <p _ngcontent-ng-c2942923105 class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing quis
+                  ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.</p>
+              </div>
+              <p _ngcontent-ng-c2942923105 class="card-fotter">Learn More <img _ngcontent-ng-c2942923105 alt srcset
+                  class="icon" src="/services/icons/Right Arrow.svg"></p><img _ngcontent-ng-c2942923105 alt srcset
+                src="/icons/LineUnder.svg">
+            </div>
+          </div>
+        </div>
+      </section>
+    </app-services><app-services-footer _nghost-ng-c2418115144 ngh="0">
+      <section _ngcontent-ng-c2418115144 class="d-flex">
+        <div _ngcontent-ng-c2418115144 class="part-1 col-4 gap-0">
+          <div _ngcontent-ng-c2418115144 class="image-container"><img _ngcontent-ng-c2418115144 alt width="40px"
+              height="40px" src="/services/img/image-under-services.jpg"></div>
+        </div>
+        <div _ngcontent-ng-c2418115144 class="part-2 col-8">
+          <h1 _ngcontent-ng-c2418115144>Taking regular plumbing care will save you time and money</h1>
+          <p _ngcontent-ng-c2418115144>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+          <ul _ngcontent-ng-c2418115144>
+            <li _ngcontent-ng-c2418115144 class="d-flex"><img _ngcontent-ng-c2418115144 alt srcset
+                src="/icons/Check.svg"><a _ngcontent-ng-c2418115144 href>Praesent Sodales Orci</a></li>
+            <li _ngcontent-ng-c2418115144 class="d-flex"><img _ngcontent-ng-c2418115144 alt srcset
+                src="/icons/Check.svg"><a _ngcontent-ng-c2418115144 href>Curabitur Dignissim</a></li>
+            <li _ngcontent-ng-c2418115144 class="d-flex"><img _ngcontent-ng-c2418115144 alt srcset
+                src="/icons/Check.svg"><a _ngcontent-ng-c2418115144 href>Nulla Condimentum</a></li>
+          </ul><button _ngcontent-ng-c2418115144>More About Us <img _ngcontent-ng-c2418115144 alt srcset
+              src="/services/icons/Arrow-Up-Right.svg"></button>
+        </div>
+      </section>
+    </app-services-footer><app-bg-title title="Pricing Plans" description="Affordable Pricing Plans" class="bg-danger"
+      _nghost-ng-c3277765958 ngh="0">
+      <section _ngcontent-ng-c3277765958 class="text-center justify-content-center">
+        <h5 _ngcontent-ng-c3277765958>Pricing Plans <img _ngcontent-ng-c3277765958 alt srcset
+            src="/title/Right Arrow.svg"></h5>
+        <h1 _ngcontent-ng-c3277765958>Affordable Pricing Plans</h1>
+      </section>
+    </app-bg-title><app-price-plans _nghost-ng-c1727487178 ngh="0">
+      <section _ngcontent-ng-c1727487178>
+        <div _ngcontent-ng-c1727487178 class="row row-cols-1 row-cols-md-3 g-3">
+          <div _ngcontent-ng-c1727487178 class="col">
+            <div _ngcontent-ng-c1727487178 class="card">
+              <div _ngcontent-ng-c1727487178 class="card-body">
+                <h4 _ngcontent-ng-c1727487178>Residential Plumbing</h4>
+                <h1 _ngcontent-ng-c1727487178>$199<span _ngcontent-ng-c1727487178>/Month</span></h1>
+                <ul _ngcontent-ng-c1727487178>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                </ul><button _ngcontent-ng-c1727487178 id="b13" class="rounded-2">Get Started</button>
+              </div>
+            </div>
+          </div>
+          <div _ngcontent-ng-c1727487178 class="col">
+            <div _ngcontent-ng-c1727487178 class="card">
+              <div _ngcontent-ng-c1727487178 class="card-body">
+                <h4 _ngcontent-ng-c1727487178>Commercial Plumbing</h4>
+                <h1 _ngcontent-ng-c1727487178>$499<span _ngcontent-ng-c1727487178>/Month</span></h1>
+                <ul _ngcontent-ng-c1727487178>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                </ul><button _ngcontent-ng-c1727487178 id="b2" class="rounded-2">Get Started</button><img
+                  _ngcontent-ng-c1727487178 alt class="img-footer" src="/icons/LineUnder.svg">
+              </div>
+            </div>
+          </div>
+          <div _ngcontent-ng-c1727487178 class="col">
+            <div _ngcontent-ng-c1727487178 class="card">
+              <div _ngcontent-ng-c1727487178 class="card-body">
+                <h4 _ngcontent-ng-c1727487178>Service &amp; Repair</h4>
+                <h1 _ngcontent-ng-c1727487178>$399<span _ngcontent-ng-c1727487178>/Month</span></h1>
+                <ul _ngcontent-ng-c1727487178>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                  <li _ngcontent-ng-c1727487178 class="d-flex"><img _ngcontent-ng-c1727487178 alt srcset
+                      src="/icons/Check.svg"><a _ngcontent-ng-c1727487178 href>Free Diagnostics &amp; Consultation</a>
+                  </li>
+                </ul><button _ngcontent-ng-c1727487178 id="b13" class="rounded-2">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </app-price-plans><app-title title="Featured Projects" description="Our Recent Works" _nghost-ng-c1016580246
+      ngh="0">
+      <section _ngcontent-ng-c1016580246 class="text-center justify-content-center">
+        <h5 _ngcontent-ng-c1016580246>Featured Projects <img _ngcontent-ng-c1016580246 alt srcset
+            src="/title/Right Arrow.svg"></h5>
+        <h1 _ngcontent-ng-c1016580246>Our Recent Works</h1>
+      </section>
+    </app-title><app-recent-works _nghost-ng-c2041863817 ngh="0">
+      <section _ngcontent-ng-c2041863817>
+        <ul _ngcontent-ng-c2041863817>
+          <li _ngcontent-ng-c2041863817>
+            <h4 _ngcontent-ng-c2041863817><a _ngcontent-ng-c2041863817 href>All Projects</a></h4>
+          </li>
+          <li _ngcontent-ng-c2041863817>
+            <h4 _ngcontent-ng-c2041863817><a _ngcontent-ng-c2041863817 href>Commercial Services</a></h4>
+          </li>
+          <li _ngcontent-ng-c2041863817>
+            <h4 _ngcontent-ng-c2041863817><a _ngcontent-ng-c2041863817 href>Residential Services</a></h4>
+          </li>
+          <li _ngcontent-ng-c2041863817>
+            <h4 _ngcontent-ng-c2041863817><a _ngcontent-ng-c2041863817 href>Emergency Services</a></h4>
+          </li>
+        </ul>
+        <div _ngcontent-ng-c2041863817 class="cards">
+          <div _ngcontent-ng-c2041863817 class="row row-cols-1 row-cols-md-3 g-2">
+            <div _ngcontent-ng-c2041863817 class="col">
+              <div _ngcontent-ng-c2041863817 class="card"><img _ngcontent-ng-c2041863817 alt="..." class="card-img-top"
+                  src="/works&amp;blocks/1.jpg"></div>
+            </div>
+            <div _ngcontent-ng-c2041863817 class="col">
+              <div _ngcontent-ng-c2041863817 class="card"><img _ngcontent-ng-c2041863817 alt="..." class="card-img-top"
+                  src="/works&amp;blocks/2.jpg"></div>
+            </div>
+            <div _ngcontent-ng-c2041863817 class="col">
+              <div _ngcontent-ng-c2041863817 class="card"><img _ngcontent-ng-c2041863817 alt="..." class="card-img-top"
+                  src="/works&amp;blocks/3.jpg"></div>
+            </div>
+            <div _ngcontent-ng-c2041863817 class="col">
+              <div _ngcontent-ng-c2041863817 class="card"><img _ngcontent-ng-c2041863817 alt="..." class="card-img-top"
+                  src="/works&amp;blocks/4.jpg"></div>
+            </div>
+            <div _ngcontent-ng-c2041863817 class="col">
+              <div _ngcontent-ng-c2041863817 class="card"><img _ngcontent-ng-c2041863817 alt="..." class="card-img-top"
+                  src="/works&amp;blocks/5.jpg"></div>
+            </div>
+            <div _ngcontent-ng-c2041863817 class="col">
+              <div _ngcontent-ng-c2041863817 class="card"><img _ngcontent-ng-c2041863817 alt="..." class="card-img-top"
+                  src="/works&amp;blocks/6.jpg"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </app-recent-works><app-provide-excellent-services _nghost-ng-c3822401197 ngh="0">
+      <section _ngcontent-ng-c3822401197>
+        <div _ngcontent-ng-c3822401197 class="container">
+          <h2 _ngcontent-ng-c3822401197 class="title">Providing excellent services for the last 25 years</h2>
+          <div _ngcontent-ng-c3822401197 class="row row-cols-md-4 g-5">
+            <div _ngcontent-ng-c3822401197 class="provider">
+              <div _ngcontent-ng-c3822401197 class="providing d-flex justify-content-center">
+                <div _ngcontent-ng-c3822401197 class="left"><img _ngcontent-ng-c3822401197 alt srcset class="icon"
+                    src="/providing-excellent-services/1.svg"></div>
+                <div _ngcontent-ng-c3822401197 class="right">
+                  <h2 _ngcontent-ng-c3822401197 class="hprovider">1200<span _ngcontent-ng-c3822401197>+</span></h2>
+                  <p _ngcontent-ng-c3822401197> Customers</p>
+                </div>
+              </div>
+              <div _ngcontent-ng-c3822401197 class="providing d-flex">
+                <div _ngcontent-ng-c3822401197 class="left"><img _ngcontent-ng-c3822401197 alt srcset class="icon"
+                    src="/providing-excellent-services/2.svg"></div>
+                <div _ngcontent-ng-c3822401197 class="right">
+                  <h2 _ngcontent-ng-c3822401197 class="hprovider">8,714<span _ngcontent-ng-c3822401197>+</span></h2>
+                  <p _ngcontent-ng-c3822401197>Installed Units</p>
+                </div>
+              </div>
+              <div _ngcontent-ng-c3822401197 class="providing d-flex">
+                <div _ngcontent-ng-c3822401197 class="left"><img _ngcontent-ng-c3822401197 alt srcset class="icon"
+                    src="/providing-excellent-services/3.svg"></div>
+                <div _ngcontent-ng-c3822401197 class="right">
+                  <h2 _ngcontent-ng-c3822401197 class="hprovider">1600<span _ngcontent-ng-c3822401197>+</span></h2>
+                  <p _ngcontent-ng-c3822401197>Home Served</p>
+                </div>
+              </div>
+              <div _ngcontent-ng-c3822401197 class="providing d-flex">
+                <div _ngcontent-ng-c3822401197 class="left"><img _ngcontent-ng-c3822401197 alt srcset class="icon"
+                    src="/providing-excellent-services/4.svg"></div>
+                <div _ngcontent-ng-c3822401197 class="right">
+                  <h2 _ngcontent-ng-c3822401197 class="hprovider">500<span _ngcontent-ng-c3822401197>+</span></h2>
+                  <p _ngcontent-ng-c3822401197>Professional</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </app-provide-excellent-services><app-title title="Customer Testimonial" description="Our Partner &amp; Customer"
+      _nghost-ng-c1016580246 ngh="0">
+      <section _ngcontent-ng-c1016580246 class="text-center justify-content-center">
+        <h5 _ngcontent-ng-c1016580246>Customer Testimonial <img _ngcontent-ng-c1016580246 alt srcset
+            src="/title/Right Arrow.svg"></h5>
+        <h1 _ngcontent-ng-c1016580246>Our Partner &amp; Customer</h1>
+      </section>
+    </app-title><app-customers _nghost-ng-c2978113021 ngh="0">
+      <section _ngcontent-ng-c2978113021>
+        <div _ngcontent-ng-c2978113021 class="container">
+          <div _ngcontent-ng-c2978113021 class="row row-cols-md-3 g-1">
+            <div _ngcontent-ng-c2978113021 class="review">
+              <div _ngcontent-ng-c2978113021 class="boody">
+                <div _ngcontent-ng-c2978113021 class="head d-flex justify-content-evenly"><img _ngcontent-ng-c2978113021
+                    alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset
+                    src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img
+                    _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt
+                    srcset src="/customers/Star.svg"></div>
+                <p _ngcontent-ng-c2978113021 class="pbody">Lorem ipsum dolor sit amet consectetur. Pretium malesuada
+                  pulvinar sed feugiat sem est nisl pharetra. Facilisis ridiculus amet commodo aliquet a phasellus
+                  malesuada. Ac id quam mattis neque. Urna tellus ut maecenas interdum. Euismod egestas scelerisque.</p>
+                <div _ngcontent-ng-c2978113021 class="bottom d-flex">
+                  <div _ngcontent-ng-c2978113021 class="left"><img _ngcontent-ng-c2978113021 alt srcset
+                      src="/customers/image1.svg"></div>
+                  <div _ngcontent-ng-c2978113021 class="right">
+                    <h4 _ngcontent-ng-c2978113021>Wade Warren</h4>
+                    <p _ngcontent-ng-c2978113021 class="pbottom">Marketing Coordinator</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div _ngcontent-ng-c2978113021 class="review">
+              <div _ngcontent-ng-c2978113021 class="boody">
+                <div _ngcontent-ng-c2978113021 class="head d-flex justify-content-evenly"><img _ngcontent-ng-c2978113021
+                    alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset
+                    src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img
+                    _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt
+                    srcset src="/customers/Star.svg"></div>
+                <p _ngcontent-ng-c2978113021 class="pbody">Lorem ipsum dolor sit amet consectetur. Pretium malesuada
+                  pulvinar sed feugiat sem est nisl pharetra. Facilisis ridiculus amet commodo aliquet a phasellus
+                  malesuada. Ac id quam mattis neque. Urna tellus ut maecenas interdum. Euismod egestas scelerisque.</p>
+                <div _ngcontent-ng-c2978113021 class="bottom d-flex">
+                  <div _ngcontent-ng-c2978113021 class="left"><img _ngcontent-ng-c2978113021 alt srcset
+                      src="/customers/image2.svg"></div>
+                  <div _ngcontent-ng-c2978113021 class="right">
+                    <h4 _ngcontent-ng-c2978113021>Wade Warren</h4>
+                    <p _ngcontent-ng-c2978113021 class="pbottom">Marketing Coordinator</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div _ngcontent-ng-c2978113021 class="review">
+              <div _ngcontent-ng-c2978113021 class="boody">
+                <div _ngcontent-ng-c2978113021 class="head d-flex justify-content-evenly"><img _ngcontent-ng-c2978113021
+                    alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset
+                    src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img
+                    _ngcontent-ng-c2978113021 alt srcset src="/customers/Star.svg"><img _ngcontent-ng-c2978113021 alt
+                    srcset src="/customers/Star.svg"></div>
+                <p _ngcontent-ng-c2978113021 class="pbody">Lorem ipsum dolor sit amet consectetur. Pretium malesuada
+                  pulvinar sed feugiat sem est nisl pharetra. Facilisis ridiculus amet commodo aliquet a phasellus
+                  malesuada. Ac id quam mattis neque. Urna tellus ut maecenas interdum. Euismod egestas scelerisque.</p>
+                <div _ngcontent-ng-c2978113021 class="bottom d-flex">
+                  <div _ngcontent-ng-c2978113021 class="left"><img _ngcontent-ng-c2978113021 alt srcset
+                      src="/customers/image3.svg"></div>
+                  <div _ngcontent-ng-c2978113021 class="right">
+                    <h4 _ngcontent-ng-c2978113021>Wade Warren</h4>
+                    <p _ngcontent-ng-c2978113021 class="pbottom">Marketing Coordinator</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </app-customers><app-title-two titletwo="Worked With" descriptiontwo="Our Partners" _nghost-ng-c1149769737 ngh="0">
+      <section _ngcontent-ng-c1149769737>
+        <h5 _ngcontent-ng-c1149769737>Worked With <img _ngcontent-ng-c1149769737 alt srcset
+            src="/title/Right Arrow.svg"></h5>
+        <h1 _ngcontent-ng-c1149769737>Our Partners</h1>
+      </section>
+    </app-title-two><app-partaners _nghost-ng-c1812511714 ngh="0">
+      <section _ngcontent-ng-c1812511714>
+        <div _ngcontent-ng-c1812511714 class="container">
+          <div _ngcontent-ng-c1812511714 class="row row-cols-md-4 justify-content-between"><img
+              _ngcontent-ng-c1812511714 alt srcset src="/partners/logo-1.svg"><img _ngcontent-ng-c1812511714 alt srcset
+              src="/partners/logo-2.svg"><img _ngcontent-ng-c1812511714 alt srcset src="/partners/logo-3.svg"><img
+              _ngcontent-ng-c1812511714 alt srcset src="/partners/logo-4.svg"><img _ngcontent-ng-c1812511714 alt srcset
+              src="/partners/logo-5.svg"><img _ngcontent-ng-c1812511714 alt srcset src="/partners/logo-6.svg"><img
+              _ngcontent-ng-c1812511714 alt srcset src="/partners/logo-7.svg"><img _ngcontent-ng-c1812511714 alt srcset
+              src="/partners/logo-8.svg"></div>
+        </div>
+      </section>
+    </app-partaners><app-title-two titletwo="Our Blogs" descriptiontwo="Emergency Tips &amp; Tricks"
+      _nghost-ng-c1149769737 ngh="0">
+      <section _ngcontent-ng-c1149769737>
+        <h5 _ngcontent-ng-c1149769737>Our Blogs <img _ngcontent-ng-c1149769737 alt srcset src="/title/Right Arrow.svg">
+        </h5>
+        <h1 _ngcontent-ng-c1149769737>Emergency Tips &amp; Tricks</h1>
+      </section>
+    </app-title-two><app-blogs _nghost-ng-c1362999061 ngh="0">
+      <section _ngcontent-ng-c1362999061>
+        <div _ngcontent-ng-c1362999061 class="container">
+          <p _ngcontent-ng-c1362999061 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            semper placerat metus.</p>
+        </div>
+        <div _ngcontent-ng-c1362999061 class="blogs row row-cols-md-2 g-2">
+          <div _ngcontent-ng-c1362999061 class="blog d-flex">
+            <div _ngcontent-ng-c1362999061 class="left"><img _ngcontent-ng-c1362999061 alt srcset
+                src="/works&amp;blocks/1.jpg"></div>
+            <div _ngcontent-ng-c1362999061 class="right">
+              <h4 _ngcontent-ng-c1362999061>The Do’s and Don’ts of Fixing a Blocked Drain</h4>
+              <div _ngcontent-ng-c1362999061 class="calender d-flex"><img _ngcontent-ng-c1362999061 alt srcset
+                  src="/works&amp;blocks/Calendar.svg"><span _ngcontent-ng-c1362999061 class="calender-p">January 4,
+                  2022</span></div>
+              <p _ngcontent-ng-c1362999061 class="decription">The Do’s and Don’ts of Fixing a Blocked Drain Lorem ipsum
+                dolor sit amet consectetur</p>
+              <p _ngcontent-ng-c1362999061 class="fotter-p">Read More <span _ngcontent-ng-c1362999061><img
+                    _ngcontent-ng-c1362999061 alt srcset src="/works&amp;blocks/Arrow-Up-Right.svg "></span></p>
+            </div>
+          </div>
+          <div _ngcontent-ng-c1362999061 class="blog d-flex">
+            <div _ngcontent-ng-c1362999061 class="left"><img _ngcontent-ng-c1362999061 alt srcset
+                src="/works&amp;blocks/2.jpg"></div>
+            <div _ngcontent-ng-c1362999061 class="right">
+              <h4 _ngcontent-ng-c1362999061>The Do’s and Don’ts of Fixing a Blocked Drain</h4>
+              <div _ngcontent-ng-c1362999061 class="calender d-flex"><img _ngcontent-ng-c1362999061 alt srcset
+                  src="/works&amp;blocks/Calendar.svg"><span _ngcontent-ng-c1362999061 class="calender-p">January 4,
+                  2022</span></div>
+              <p _ngcontent-ng-c1362999061 class="decription">The Do’s and Don’ts of Fixing a Blocked Drain Lorem ipsum
+                dolor sit amet consectetur</p>
+              <p _ngcontent-ng-c1362999061 class="fotter-p">Read More <span _ngcontent-ng-c1362999061><img
+                    _ngcontent-ng-c1362999061 alt srcset src="/works&amp;blocks/Arrow-Up-Right.svg "></span></p>
+            </div>
+          </div>
+          <div _ngcontent-ng-c1362999061 class="blog d-flex position-relative">
+            <div _ngcontent-ng-c1362999061 class="left"><img _ngcontent-ng-c1362999061 alt srcset
+                src="/works&amp;blocks/3.jpg"></div>
+            <div _ngcontent-ng-c1362999061 class="right">
+              <h4 _ngcontent-ng-c1362999061>The Do’s and Don’ts of Fixing a Blocked Drain</h4>
+              <div _ngcontent-ng-c1362999061 class="calender d-flex"><img _ngcontent-ng-c1362999061 alt srcset
+                  src="/works&amp;blocks/Calendar.svg"><span _ngcontent-ng-c1362999061 class="calender-p">January 4,
+                  2022</span></div>
+              <p _ngcontent-ng-c1362999061 class="decription">The Do’s and Don’ts of Fixing a Blocked Drain Lorem ipsum
+                dolor sit amet consectetur</p>
+              <p _ngcontent-ng-c1362999061 class="fotter-p">Read More <span _ngcontent-ng-c1362999061><img
+                    _ngcontent-ng-c1362999061 alt srcset src="/works&amp;blocks/Arrow-Up-Right.svg "></span></p>
+            </div>
+          </div>
+          <div _ngcontent-ng-c1362999061 class="blog d-flex">
+            <div _ngcontent-ng-c1362999061 class="left"><img _ngcontent-ng-c1362999061 alt srcset
+                src="/works&amp;blocks/4.jpg"></div>
+            <div _ngcontent-ng-c1362999061 class="right">
+              <h4 _ngcontent-ng-c1362999061>The Do’s and Don’ts of Fixing a Blocked Drain</h4>
+              <div _ngcontent-ng-c1362999061 class="calender d-flex"><img _ngcontent-ng-c1362999061 alt srcset
+                  src="/works&amp;blocks/Calendar.svg"><span _ngcontent-ng-c1362999061 class="calender-p">January 4,
+                  2022</span></div>
+              <p _ngcontent-ng-c1362999061 class="decription">The Do’s and Don’ts of Fixing a Blocked Drain Lorem ipsum
+                dolor sit amet consectetur</p>
+              <p _ngcontent-ng-c1362999061 class="fotter-p">Read More <span _ngcontent-ng-c1362999061><img
+                    _ngcontent-ng-c1362999061 alt srcset src="/works&amp;blocks/Arrow-Up-Right.svg "></span></p>
+            </div>
+          </div>
+        </div><button _ngcontent-ng-c1362999061> see More <span _ngcontent-ng-c1362999061><img _ngcontent-ng-c1362999061
+              alt srcset src="/services/icons/WhiteRight Arrow.svg"></span></button>
+      </section>
+    </app-blogs><app-footer _nghost-ng-c2425689991 ngh="0">
+      <section _ngcontent-ng-c2425689991 class="footer text-light">
+        <div _ngcontent-ng-c2425689991 class="d-flex justify-content-between align-items-center mb-4 flex-wrap">
+          <h2 _ngcontent-ng-c2425689991 class="fw-bold">Contact us to get a quotation.</h2><button
+            _ngcontent-ng-c2425689991 class="btn btn-danger">Contact Us</button>
+        </div>
+        <hr _ngcontent-ng-c2425689991 class="border-secondary">
+        <div _ngcontent-ng-c2425689991 class="row mt-4">
+          <div _ngcontent-ng-c2425689991 class="col-md-3 mb-4">
+            <h5 _ngcontent-ng-c2425689991>Contact</h5>
+            <p _ngcontent-ng-c2425689991><i _ngcontent-ng-c2425689991 class="fa-solid fa-location-dot me-2"></i>3249
+              Henery Street, Kansas 67204</p>
+            <p _ngcontent-ng-c2425689991><i _ngcontent-ng-c2425689991
+                class="fa-solid fa-envelope me-2"></i>info@template.com</p>
+            <p _ngcontent-ng-c2425689991><i _ngcontent-ng-c2425689991 class="fa-solid fa-phone me-2"></i>+ (100)
+              234-5678</p>
+            <p _ngcontent-ng-c2425689991 class="fw-bold">Emergency 24/7 Service</p>
+            <p _ngcontent-ng-c2425689991 class="fw-bold text-danger"><i _ngcontent-ng-c2425689991
+                class="fa-solid fa-phone-volume me-2"></i>+1-800-777-584</p>
+          </div>
+          <div _ngcontent-ng-c2425689991 class="col-md-2 mb-4">
+            <h5 _ngcontent-ng-c2425689991>Navigation</h5>
+            <p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Home</a></p>
+            <p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Service</a></p>
+            <p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Blog</a></p>
+            <p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Our Teams</a></p>
+            <p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Contact Us</a></p>
+          </div>
+          <div _ngcontent-ng-c2425689991 class="col-md-2 mb-4">
+            <h5 _ngcontent-ng-c2425689991>Template</h5>
+            <p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">404</a></p>
+            <p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Login</a></p>
+            <p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Licenses</a></p>
+            <p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Styleguide</a></p>
+            <p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Changelog</a></p>
+          </div>
+          <div _ngcontent-ng-c2425689991 class="col-md-5 mb-4 newsletter">
+            <h5 _ngcontent-ng-c2425689991>Newsletter</h5>
+            <p _ngcontent-ng-c2425689991>Get the latest tips and tricks, updates, offers and discount right into your
+              mailbox.</p>
+            <form _ngcontent-ng-c2425689991 class="d-flex flex-column gap-2"><input _ngcontent-ng-c2425689991
+                type="email" placeholder="Your Email" class="form-control"><button _ngcontent-ng-c2425689991
+                class="btn btn-primary">Subscribe Now</button></form>
+          </div>
+        </div>
+        <div _ngcontent-ng-c2425689991 class="social-icons mt-4"><a _ngcontent-ng-c2425689991 href="#"><i
+              _ngcontent-ng-c2425689991 class="fab fa-facebook-f"></i></a><a _ngcontent-ng-c2425689991 href="#"><i
+              _ngcontent-ng-c2425689991 class="fab fa-twitter"></i></a><a _ngcontent-ng-c2425689991 href="#"><i
+              _ngcontent-ng-c2425689991 class="fab fa-instagram"></i></a><a _ngcontent-ng-c2425689991 href="#"><i
+              _ngcontent-ng-c2425689991 class="fab fa-whatsapp"></i></a></div>
+        <div _ngcontent-ng-c2425689991 class="footer-bottom d-flex justify-content-between flex-wrap mt-4">
+          <p _ngcontent-ng-c2425689991>© Copyright 2025 by Housefix. Designed &amp; Developed by Hexwaave. Powered by
+            Webflow</p>
+          <p _ngcontent-ng-c2425689991><a _ngcontent-ng-c2425689991 href="#">Privacy &amp; Policy</a> | <a
+              _ngcontent-ng-c2425689991 href="#">Terms &amp; Conditions</a></p>
+        </div>
+      </section>
+    </app-footer></app-root>
   <!-- p = inter -->
   <!-- <h = manrope -->
-<script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="scripts-WL2QHKC5.js" defer></script><script src="main-S7FI624B.js" type="module"></script>
+  <script src="polyfills-B6TNHZQ6.js" type="module"></script>
+  <script src="scripts-WL2QHKC5.js" defer></script>
+  <script src="main-S7FI624B.js" type="module"></script>
 
-<script id="ng-state" type="application/json">{"__nghData__":[{}]}</script></body></html>
+  <script id="ng-state" type="application/json">{"__nghData__":[{}]}</script>
+</body>
+
+</html>

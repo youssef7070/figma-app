@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/figma-app',
+  basePath: '/',
   supportedLocales: {
   "en-US": ""
 },

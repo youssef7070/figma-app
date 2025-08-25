@@ -6,6 +6,8 @@ import { Services } from './components/services/services';
 import { PricePlans } from './components/price-plans/price-plans';
 import { Component } from '@angular/core';
 
-
 export const routes: Routes = [
+    { path: '', component: Nav },
+    { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
+

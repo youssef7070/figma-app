@@ -8,7 +8,4 @@ import { Component } from '@angular/core';
 
 
 export const routes: Routes = [
-    { path: '', component: Nav },
-    { path: 'nav', component: Nav },
-    { path: '**', redirectTo: 'nav', pathMatch: 'full' }
 ];

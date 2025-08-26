@@ -7,7 +7,8 @@ import { PricePlans } from './components/price-plans/price-plans';
 import { Component } from '@angular/core';
 
 export const routes: Routes = [
-    { path: '', component: Nav },
+    { path: '', component: Nav, pathMatch: 'full' },
     { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
+
 

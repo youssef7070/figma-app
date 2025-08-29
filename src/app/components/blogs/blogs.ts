@@ -7,13 +7,13 @@ import { Component } from '@angular/core';
   styleUrl: './blogs.css'
 })
 export class Blogs {
-  image1: string = "figma-app/works&blocks/1.jpg";
+  image1: string = "./works&blocks/1.jpg";
   image2: string = "./works&blocks/2.jpg";
-  image3: string = "/works&blocks/3.jpg";
-  image4: string = "/works&blocks/4.jpg";
+  image3: string = "./works&blocks/3.jpg";
+  image4: string = "./works&blocks/4.jpg";
 
-  calenderLogo: string = "/works&blocks/Calendar.svg";
-  rowLogo: string = "/works&blocks/Arrow-Up-Right.svg ";
+  calenderLogo: string = "./works&blocks/Calendar.svg";
+  rowLogo: string = "./works&blocks/Arrow-Up-Right.svg ";
 
-  whiteRow: string = "/services/icons/WhiteRight Arrow.svg";
+  whiteRow: string = "./services/icons/WhiteRight Arrow.svg";
 }

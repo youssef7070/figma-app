@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './header.css'
 })
 export class Header {
-  imgMan: string = "/images-header/man.png"
+  imgMan: string = "./images-header/man.png"
 }

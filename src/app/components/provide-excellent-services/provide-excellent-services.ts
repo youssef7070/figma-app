@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './provide-excellent-services.css'
 })
 export class ProvideExcellentServices {
-  icon1: string = "/providing-excellent-services/1.svg"
-  icon2: string = "/providing-excellent-services/2.svg"
-  icon3: string = "/providing-excellent-services/3.svg"
-  icon4: string = "/providing-excellent-services/4.svg"
+  icon1: string = "./providing-excellent-services/1.svg"
+  icon2: string = "./providing-excellent-services/2.svg"
+  icon3: string = "./providing-excellent-services/3.svg"
+  icon4: string = "./providing-excellent-services/4.svg"
 }

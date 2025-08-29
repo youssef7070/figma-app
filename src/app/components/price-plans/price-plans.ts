@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './price-plans.css'
 })
 export class PricePlans {
-  imageCheck: string = "/icons/Check.svg";
+  imageCheck: string = "./icons/Check.svg";
 
-  lineUnder: string = "/icons/LineUnder.svg"
+  lineUnder: string = "./icons/LineUnder.svg"
 }

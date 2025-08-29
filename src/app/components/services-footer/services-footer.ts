@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './services-footer.css'
 })
 export class ServicesFooter {
-  image: string = "/services/img/image-under-services.jpg";
+  image: string = "./services/img/image-under-services.jpg";
 
-  checkIcon: string = "/icons/Check.svg";
-  rowUp: string = "/services/icons/Arrow-Up-Right.svg"
+  checkIcon: string = "./icons/Check.svg";
+  rowUp: string = "./services/icons/Arrow-Up-Right.svg"
 }

@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './customers.css'
 })
 export class Customers {
-  iconStar: string = "/customers/Star.svg";
-  image1: string = "/customers/image1.svg";
-  image2: string = "/customers/image2.svg";
-  image3: string = "/customers/image3.svg";
+  iconStar: string = "./customers/Star.svg";
+  image1: string = "./customers/image1.svg";
+  image2: string = "./customers/image2.svg";
+  image3: string = "./customers/image3.svg";
 }

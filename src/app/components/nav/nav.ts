@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './nav.css'
 })
 export class Nav {
-  navLogo: string = "/nav/Logo.svg";
+  navLogo: string = "./nav/Logo.svg";
 }

@@ -3,6 +3,12 @@
      margin-bottom: 100px;
  }
 
+ .reviews {
+     display: flex;
+     justify-content: space-between;
+     gap: 20px;
+ }
+
  .review {
      background-color: var(--main-bg);
  }

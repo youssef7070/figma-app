@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class Header {
   imgMan: string = "./images-header/man.png"
+  backPhoto: string = "./images-header/background.jpg"
 }

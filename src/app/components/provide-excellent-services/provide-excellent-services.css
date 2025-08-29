@@ -2,7 +2,11 @@ section {
     background-color: var(--main-bg);
     padding-block: 60px;
     padding-inline: 32px;
+
+
 }
+
+
 
 .title {
     /* font-family: Manrope; */
@@ -16,8 +20,9 @@ section {
 }
 
 .provider {
-    display: flex;
-    gap: 40px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 
 }
 

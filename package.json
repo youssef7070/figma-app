@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration production && npm run postbuild",
-    "postbuild": "cp -r docs/browser/* docs/ && cp docs/index.html docs/404.html"
+    "build": "ng build --configuration production && npm run copy-public",
+    "copy-public": "copyfiles -u 1 public/**/* docs/"
   },
   "prettier": {
     "overrides": [
@@ -42,6 +42,7 @@
     "@types/jasmine": "~5.1.0",
     "@types/node": "^20.17.19",
     "angular-cli-ghpages": "^2.0.3",
+    "copyfiles": "^2.4.1",
     "jasmine-core": "~5.8.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
